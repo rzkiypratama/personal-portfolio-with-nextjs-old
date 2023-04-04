@@ -13,7 +13,7 @@ function Hero({}: Props) {
     words: [
       "Hi, the name is Rizky Putra",
       "Guy who loves coffee",
-      "But loves you more",
+      "But loves my wife more",
     ],
     loop: true,
     delaySpeed: 2000,
