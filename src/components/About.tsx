@@ -36,12 +36,12 @@ function About({}: Props) {
           once: true,
         }}
         src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1686182400&v=beta&t=79gYoL8xREV342zltonX98pJtdqksstJTwVVosm6zFQ'
-        className='-nb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       />
 
-      <div className='space-y-10 px-0 md:px-10'>
+      <div className='space-y-10 px-0 md:px-10 pt-[55px]'>
         <h4 className='text-4xl font-semibold'>
-          Here's{" "}
+          Here is{" "}
           <span className='underline decoration-[#F7AB0A]'>
             about
           </span>{" "}
@@ -63,9 +63,8 @@ function About({}: Props) {
           'father jokes' too. I am able to work
           well both in a team environment as well
           as using own initiative.
+          You can download my latest resume about me on button bellow
           </p>
-
-          <p>You can download my latest resume about me on button bellow</p>
       </div>
     </motion.div>
   );
