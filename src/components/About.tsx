@@ -42,28 +42,24 @@ function About({}: Props) {
       <div className='space-y-10 px-0 md:px-10 pt-[55px]'>
         <h4 className='text-4xl font-semibold'>
           Here is{" "}
-          <span className='underline decoration-[#F7AB0A]'>
-            about
+          <span className='underline decoration-[#F7AB0A] animate-pulse'>
+            my
           </span>{" "}
-          me
+          background
         </h4>
         <p>
-          I am a full-stack web developer. I can
+        Welcome to my website! I'm Rizky Putra Pratama, a full-stack web developer based in Banjarbaru, South Kalimantan. I specialize in creating engaging and user-friendly interfaces, and I'm skilled in ReactJS, NextJS, VueJS for front-end and NodeJS for back-end. With prior experience in design and digital marketing, I create visually appealing and functional websites.
+          {/* I am a full-stack web developer. I can
           turn your figma design into website! I
           have expertise working with Reactjs,
           NextJs, VueJs for frontend and Nodejs
           for backend, oh yeah not forget using
           redux for state-management, one more,
-          react native for mobile. 
+          react native for mobile.  */}
         </p>
           
           <p>
-          I have a good
-          sense of humor and has a sense of
-          'father jokes' too. I am able to work
-          well both in a team environment as well
-          as using own initiative.
-          You can download my latest resume about me on button bellow
+          Curently i'm working in Lucy Technology as Frontend Developer. I'm passionate about learning and taking on new challenges in web development. Let's work together on your next project!
           </p>
       </div>
     </motion.div>
