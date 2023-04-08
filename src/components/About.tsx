@@ -59,7 +59,7 @@ function About({}: Props) {
         </p>
           
           <p>
-          Curently i'm working in Lucy Technology as Frontend Developer. I'm passionate about learning and taking on new challenges in web development. Let's work together on your next project!
+          Curently i'm working in Emori Creative as Frontend Developer. I'm passionate about learning and taking on new challenges in web development. Let's work together on your next project!
           </p>
       </div>
     </motion.div>
