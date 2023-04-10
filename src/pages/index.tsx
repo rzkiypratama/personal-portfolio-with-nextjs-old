@@ -4,6 +4,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import WorkExperience from "@/components/WorkExperience";
+import Skills from "@/components/Skills";
+Skills
 
 Header;
 Hero;
@@ -33,12 +35,15 @@ const Home: NextPage = () => {
       <section id="about" className="snap-center max-w-7xl mx-auto">
         <About />
       </section>
-      {/* experience */}
+    
       <section id="experience" className="snap-center max-w-7xl mx-auto">
       <WorkExperience/>
       </section>
 
       {/* skills */}
+      <section id="experience" className="snap-start">
+        <Skills/>
+      </section>
 
       {/* projects */}
 
