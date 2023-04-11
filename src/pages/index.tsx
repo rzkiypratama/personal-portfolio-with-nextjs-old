@@ -26,7 +26,9 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      <section className="sticky">
       <Header />
+      </section>
 
       <section id='hero' className='snap-start max-w-7xl mx-auto'>
         <Hero />
