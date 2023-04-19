@@ -30,7 +30,7 @@ const Projects = (props: Props) => {
               // https://i.ibb.co/LPZKGQs/images-1.webp e-wallet
               alt=''
 
-              className="w-[666px ]h-[375px] object-cover"
+              className="w-[666px] h-[375px] object-cover"
             />
 
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
