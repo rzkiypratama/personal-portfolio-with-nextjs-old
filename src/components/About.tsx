@@ -21,8 +21,8 @@ function About({}: Props) {
         About
       </h3>
 
-      <div className="pt-[5rem]">
 
+<div className="pt-[5rem] md:pt-0 lg:pt-0 xl:pt-0 pb-[2.5rem] md:pb-0 lg:pb-0 xl:pb-0">
       <motion.img
         initial={{
           x: -200,
@@ -39,13 +39,12 @@ function About({}: Props) {
           once: true,
         }}
         src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1686182400&v=beta&t=79gYoL8xREV342zltonX98pJtdqksstJTwVVosm6zFQ'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-24 h-24 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] mt-10'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-[10rem] h-[10rem] rounded-xl object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       />
-        
-      </div>
+</div>
 
-      <div className='space-y-5 md:space-y-10 lg:space-y-10 xl:space-y-10 px-0 md:px-10 pt-[5rem]'>
-        <h4 className='text-[20px] md:text-4xl lg:text-4xl xl:text-4xl font-semibol'>
+      <div className='space-y-10 px-0 md:px-10'>
+        <h4 className='text-[1.3rem] xl:text-4xl lg:text-4xl md:text-4xl font-semibold'>
           Here is{" "}
           <span className='underline decoration-[#F7AB0A] animate-pulse'>
             my
@@ -53,7 +52,7 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          Hi there! I'm Rizky Putra
+          Welcome to my website! I'm Rizky Putra
           Pratama, a full-stack web developer
           based in Banjarbaru, South Kalimantan. I
           specialize in creating engaging and

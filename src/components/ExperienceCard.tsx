@@ -35,7 +35,7 @@ const ExperienceCard = (props: Props) => {
         </h4>
         {/* company name */}
         <p className='font-bold text-2xl mt-1'>
-          Lucy Teknologi
+          Emori Creative
         </p>
         <div className='flex space-x-2 my-2'>
           {/* tech stack that used */}
