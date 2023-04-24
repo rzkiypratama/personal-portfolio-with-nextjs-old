@@ -20,9 +20,9 @@ const Projects = (props: Props) => {
             className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
           >
             <motion.img
-              initial={{ y: -300, opacity: 0 }}
+              // initial={{ y: -300, opacity: 0 }}
               transition={{ duration: 1.2 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              // whileInView={{ opacity: 1, y: 1 }}
               viewport={{ once: true }}
               src='https://i.ibb.co/LPZKGQs/images-1.webp'
 
@@ -30,30 +30,20 @@ const Projects = (props: Props) => {
               // https://i.ibb.co/LPZKGQs/images-1.webp e-wallet
               alt=''
 
-              className="w-[666px] h-[375px] object-cover"
+              className="relative w-[100%] md:w-[100%] xl:w-[666px] object-cover"
             />
 
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-              <h4 className='text-4xl font-semibold text-center'>
+              <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
                 <span className='underline decoration-[#F7AB0A]/50'>
                   Case Study {i + 1} of{" "}
                   {projects.length}:
                 </span>{" "}
-                Coffee Shop
+                E-Wallet
               </h4>
 
               <p className='text-lg text-center md:text-left'>
-                Lorem ipsum dolor sit amet
-                consectetur, adipisicing elit. Rem
-                ab, quas, porro numquam voluptate
-                eos tempora odit commodi eius
-                similique laudantium iste esse!
-                Aliquid iusto asperiores quidem
-                soluta dolor! Quibusdam vel
-                molestias nam earum soluta ea at
-                aut dolorem repellat sequi, sed
-                dolorum itaque modi eos incidunt
-                labore veniam maiores.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, seds.
               </p>
             </div>
           </motion.div>

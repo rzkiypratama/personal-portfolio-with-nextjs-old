@@ -2,6 +2,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 SocialIcon;
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -47,6 +48,7 @@ function Header({}: Props) {
         />
       </motion.div>
 
+        <Link href='#contact'>
       <motion.div
         initial={{
           x: 500,
@@ -74,6 +76,7 @@ function Header({}: Props) {
           Get in touch
         </p>
       </motion.div>
+        </Link>
     </header>
   );
 }

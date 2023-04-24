@@ -30,7 +30,7 @@ const ExperienceCard = (props: Props) => {
 
       <div className='px-0 md:px-10'>
         {/* your role */}
-        <h4 className='text-4xl font-light'>
+        <h4 className='text-[2rem] xl:text-4xl lg:text-4xl md:text-4xl font-light'>
           Frontend Developer
         </h4>
         {/* company name */}
