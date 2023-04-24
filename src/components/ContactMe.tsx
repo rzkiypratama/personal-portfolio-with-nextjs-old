@@ -25,16 +25,16 @@ const ContactMe = (props: Props) => {
 
   const onSubmit: SubmitHandler<Inputs> = (
     formData,
-  ) => window.location.href = `mailto:pratamabusiness@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+  ) => window.location.href = `mailto:pratamabusiness@gmail?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 lg:text-2xl md:text-2xl text-xl'>
         Contact Me
       </h3>
 
       <div className='flex flex-col space-y-10'>
-        <h4 className='text-4xl font-semibold text-center'>
+        <h4 className='text-xl xl:text-4xl md:text-4xl font-semibold text-center'>
           I have got just what you need.{" "}
           <span className='decoration-[#F7AB0A]/50 underline'>
             Lets Talk.
@@ -54,12 +54,12 @@ const ContactMe = (props: Props) => {
 
           <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p>123 Developer Lane</p>
+            <p>123 Developer Lan</p>
           </div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
-          <div className='flex space-x-2'>
+        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-full mx-auto'>
+          {/* <div className='flex md:flex-col space-x-2 '> */}
             <input
             {...register('name')}
               placeholder='Name'
@@ -72,7 +72,7 @@ const ContactMe = (props: Props) => {
               className='contactInput'
               type='email'
             />
-          </div>
+          {/* </div> */}
 
           <input
             {...register('subject')}
