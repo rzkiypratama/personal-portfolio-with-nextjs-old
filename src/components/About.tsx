@@ -52,11 +52,11 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          Welcome to my website! I'm Rizky Putra
+          Welcome to my website! I&apos;m Rizky Putra
           Pratama, a full-stack web developer
           based in Banjarbaru, South Kalimantan. I
           specialize in creating engaging and
-          user-friendly interfaces, and I'm
+          user-friendly interfaces, and I&apos;m
           skilled in ReactJS, NextJS, VueJS for
           front-end and NodeJS for back-end. With
           prior experience in design and digital
@@ -72,10 +72,10 @@ function About({}: Props) {
         </p>
 
         <p>
-          Curently i'm working in Emori Creative
-          as Frontend Developer. I'm passionate
+          Curently i&apos;m working in Emori Creative
+          as Frontend Developer. I&apos;m passionate
           about learning and taking on new
-          challenges in web development. Let's
+          challenges in web development. Let&apos;s
           work together on your next project!
         </p>
         <a href="">
