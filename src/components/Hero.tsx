@@ -33,7 +33,7 @@ function Hero({}: Props) {
         </h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
           <span className='mr-3'>{text}</span>
-          <Cursor cursorColor='#FDA0E4' />
+          <Cursor cursorColor='#F7AB0A' />
         </h1>
 
         <div className='pt-5'>
