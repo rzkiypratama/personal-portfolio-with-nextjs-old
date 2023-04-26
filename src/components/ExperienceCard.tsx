@@ -13,7 +13,7 @@ const ExperienceCard = (props: Props) => {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 overflow-hidden cursor-pointer'
+      className='flex flex-col rounded-[1rem] items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[3.5rem] overflow-hidden cursor-pointer'
     >
       <motion.img
         initial={{

@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <ContactMe />
       </section>
 
-      <Link href='#hero'>
+      {/* <Link href='#hero'>
         <footer className='sticky bottom-5 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
             <img
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             />
           </div>
         </footer>
-      </Link>
+      </Link> */}
     </div>
   );
 };
