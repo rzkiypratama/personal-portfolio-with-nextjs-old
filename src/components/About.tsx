@@ -22,7 +22,7 @@ function About({}: Props) {
       </h3>
 
 
-<div className="w-full mx-auto pt-[5rem] md:pt-0 pb-[2.5rem] md:pb-0">
+<div className="w-full mx-auto pt-[5rem] md:pt-0 pb-[1rem] md:pb-0">
       <motion.img
         initial={{
           x: -200,
