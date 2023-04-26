@@ -32,7 +32,7 @@ function Hero({}: Props) {
       <div className='z-20'>
         <motion.h2 
          initial={{
-          y: -500,
+          y: -100,
           opacity: 0,
           scale: 0.5,
         }}
