@@ -39,7 +39,7 @@ function About({}: Props) {
           once: true,
         }}
         src='https://pbs.twimg.com/profile_banners/340250595/1658615358/600x200'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[6rem] rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[6rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 </div>
 
