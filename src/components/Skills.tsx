@@ -21,7 +21,24 @@ const Skills = ({}: Props) => {
         profienciency
       </h3>
 
-      <div className='grid grid-cols-3 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 gap-1 xl:gap-5 lg:gap-5 md:gap-5 justify-center'>
+      <motion.div 
+       initial={{
+        x: -200,
+        opacity: 0,
+        scale: 0.5,
+      }}
+      whileInView={{
+        x: 0,
+        opacity: 1,
+        scale: 1,
+      }}
+      transition={{
+        duration: 0.8,
+      }}
+      viewport={{
+        once: true,
+      }}
+      className='grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 justify-center'>
         <Skill />
         <Skill />
         <Skill />
@@ -31,7 +48,7 @@ const Skills = ({}: Props) => {
         <Skill />
         <Skill />
         <Skill />
-      </div>
+      </motion.div>
     </div>
   );
 };
