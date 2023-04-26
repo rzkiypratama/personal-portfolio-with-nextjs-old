@@ -39,12 +39,12 @@ function About({}: Props) {
           once: true,
         }}
         src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1686182400&v=beta&t=79gYoL8xREV342zltonX98pJtdqksstJTwVVosm6zFQ'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-[0rem] h-[0rem] pt-[6rem] rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 {/* </div> */}
 
-      <div className='space-y-10 px-0 md:px-10'>
-        <h4 className='text-4xl font-semibold'>
+      <div className='space-y-2 md:space-y-10 px-0 md:px-10'>
+        <h4 className='text-2xl md:text-4xl font-semibold'>
           Here is{" "}
           <span className='underline decoration-[#F7AB0A] animate-pulse'>
             my
