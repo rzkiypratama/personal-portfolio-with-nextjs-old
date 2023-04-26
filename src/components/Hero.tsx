@@ -5,6 +5,7 @@ import {
 } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -12,8 +13,9 @@ function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, the name is Rizky Putra",
-      "Guy who loves coffee",
-      "But loves my wife more",
+      "I'm a software engineer",
+      "React, Next, Vue for my FE",
+      "Node, Express, Laravel for BE"
     ],
     loop: true,
     delaySpeed: 2000,
@@ -28,10 +30,24 @@ function Hero({}: Props) {
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
       />
       <div className='z-20'>
-        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
+        <motion.h2 
+         initial={{
+          y: -500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1.2,
+        }}
+        className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
           Fullstack Developer
-        </h2>
-        <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+        </motion.h2>
+        <h1 className='text-2xl md:text-5xl lg:text-6xl font-semibold px-0'>
           <span className='mr-3'>{text}</span>
           <Cursor cursorColor='#F7AB0A' />
         </h1>
