@@ -33,10 +33,10 @@ const ContactMe = (props: Props) => {
         Contact Me
       </h3>
 
-      <div className='flex flex-col space-y-10 pt-[6rem] xl:pt-0 lg:pt-0 md:pt-0'>
+      <div className='flex flex-col space-y-10 pt-[4.5rem] md:pt-0'>
         <h4 className='text-xl xl:text-4xl md:text-4xl font-semibold text-center'>
           I have got just what you need.{" "}
-          <span className='decoration-[#F7AB0A]/50 underline'>
+          <span className='decoration-[#F7AB0A]/50 underline animate-pulse'>
             Lets Talk.
           </span>
         </h4>
@@ -88,7 +88,7 @@ const ContactMe = (props: Props) => {
           />
           <button
             type='submit'
-            className='bg-[#F7AB0A] py-3 px-10 rounded-md text-black font-bold text-lg'
+            className='bg-[#F7AB0A] py-3 px-10 rounded-md text-black font-bold text-lg animate-pulse'
           >
             Submit
           </button>
