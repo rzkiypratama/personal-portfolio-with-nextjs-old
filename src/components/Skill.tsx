@@ -5,22 +5,20 @@ type Props = {
   directionLeft?: boolean;
 };
 
-function Skill({directionLeft}: Props) {
+function Skill({ directionLeft }: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
       <motion.img
-         initial={{
-          x: -200,
+        initial={{
+          x: -100,
           opacity: 0,
-          scale: 0.5,
         }}
         animate={{
           x: 0,
           opacity: 1,
-          scale: 1,
         }}
         transition={{
-          duration: 0.8,
+          duration: 1.2,
         }}
         src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png'
         className='rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
@@ -34,6 +32,6 @@ function Skill({directionLeft}: Props) {
       </div>
     </div>
   );
-};
+}
 
 export default Skill;
