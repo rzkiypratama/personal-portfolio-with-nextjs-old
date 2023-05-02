@@ -45,9 +45,10 @@ const ExperienceCard = ({experience}: Props) => {
           {/* tech stack that used */}
           {experience.technologies.map((technology) => (
             <img
-              className='h-10 w-10 rounded-full '
+              className='h-10 w-10 rounded-full'
               src={urlFor(technology.image).url()}
               alt=''
+              key={technology._id}
             />
           
           ))}
