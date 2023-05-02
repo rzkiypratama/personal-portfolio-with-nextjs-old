@@ -4,7 +4,7 @@ import React from "react";
 type Props = {};
 
 const Projects = ({}: Props) => {
-  const project = [1, 2, 3, 4];
+  const projects = [1, 2, 3, 4];
 
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly items-center mx-auto z-0'>
@@ -12,9 +12,7 @@ const Projects = ({}: Props) => {
         Projects
       </h3>
 
-
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
-        {project.map((projects, i) => (
         <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,8 +23,6 @@ const Projects = ({}: Props) => {
             transition={{ duration: 1.1 }}
             viewport={{ once: true }}
             src='https://i.ibb.co/xKkxMPs/imaages.png'
-            // https://i.ibb.co/GC0LnRz/imaages.png coffeeshop
-            // https://i.ibb.co/LPZKGQs/images-1.webp e-wallet
             alt=''
             className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
           />
@@ -34,18 +30,19 @@ const Projects = ({}: Props) => {
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {i + 1} of {project.length}:
+                Case Study 1 of{" "}
+                4:
               </span>{" "}
               Monlight Cafe
             </h4>
 
-            <div className='flex items-center space-x-2 justify-center'>
+            {/* <div className='flex items-center space-x-2 justify-center'>
               <img
                 className='h-10 w-10 rounded-full'
                 src='https://i.ibb.co/xKkxMPs/imaages.png'
                 alt=''
               />
-            </div>
+            </div> */}
 
             <p className='text-lg text-center md:text-left'>
               Application for monlight cafe which
@@ -54,11 +51,129 @@ const Projects = ({}: Props) => {
               orders, check product details and
               make purchases. As admins we can
               edit products, add new products and
-              every admin panel do!
+              every admin-side do!
             </p>
           </div>
         </motion.div>
-           ))}
+
+        {/* project 2 */}
+
+        <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
+            src='https://i.ibb.co/d7cxQJH/images.png'
+            alt=''
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study 2 of{" "}
+                4:
+              </span>{" "}
+              E-wallet B-Pay
+            </h4>
+
+            {/* <div className='flex items-center space-x-2 justify-center'>
+              <img
+                className='h-10 w-10 rounded-full'
+                src='https://i.ibb.co/xKkxMPs/imaages.png'
+                alt=''
+              />
+            </div> */}
+
+            <p className='text-lg text-center md:text-left'>
+            Digital wallet application that you can make transfers and receive transfers, search features, profiles etc like gop**, dan*, etc!
+            </p>
+          </div>
+        </motion.div>
+
+          {/* project 3 */}
+
+          <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
+            src='https://i.ibb.co/S0YgdF8/imageees.png'
+            alt=''
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study 3 of{" "}
+                4:
+              </span>{" "}
+              RIMA Furniture E-commerce
+            </h4>
+
+            {/* <div className='flex items-center space-x-2 justify-center'>
+              <img
+                className='h-10 w-10 rounded-full'
+                src='https://i.ibb.co/xKkxMPs/imaages.png'
+                alt=''
+              />
+            </div> */}
+
+            <p className='text-lg text-center md:text-left'>
+            Website for furniture ecommerce, there are many features likes ecommerce in general. User can upload their products to sell it, while other users can place orders to bought it, search products and edit their profile too.
+            </p>
+          </div>
+        </motion.div>
+
+         {/* project 4 */}
+
+         <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
+            src='https://i.ibb.co/X22QjJx/imageeesa.png'
+            alt=''
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study 4 of{" "}
+                4:
+              </span>{" "}
+              Movie Ticketing - Tickits
+            </h4>
+
+            {/* <div className='flex items-center space-x-2 justify-center'>
+              <img
+                className='h-10 w-10 rounded-full'
+                src='https://i.ibb.co/xKkxMPs/imaages.png'
+                alt=''
+              />
+            </div> */}
+
+            <p className='text-lg text-center md:text-left'>
+            Have you ever try booking movie tickets through online? Try this! Cinema ticket booking application. As user you can search, order, edit your profile, etc. There is an admin feature that can add movies and schedules.
+            </p>
+          </div>
+        </motion.div>
+        
+        
         {/* projects */}
         {/* projects */}
         {/* projects */}

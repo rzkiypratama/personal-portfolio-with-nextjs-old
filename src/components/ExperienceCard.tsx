@@ -3,9 +3,23 @@ import React from "react";
 
 
 type Props = {
+  companyImages: string;
+  role: string;
+  companyName: string;
+  skill: string;
+  skill2: string;
+  skill3: string;
+  skill4: string;
+  dateIn: string;
+  dateEnded: string;
+  summary1: string;
+  summary2: string;
+  summary3: string;
+  summary4: string;
+  currentlyWork: string;
 };
 
-const ExperienceCard = ({}: Props) => {
+const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3, skill4, dateIn, dateEnded, summary1, summary2, summary3, summary4, currentlyWork}: Props) => {
   return (
     <motion.article
       initial={{
@@ -26,41 +40,52 @@ const ExperienceCard = ({}: Props) => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
-        src='https://i.ibb.co/8D6FgPv/315365548-1332739860915960-254522410530346543-n.jpg'
+        src={companyImages}
         alt=''
       />
 
       <div className='px-0 md:px-10'>
         {/* your role */}
         <h4 className='text-[2rem] xl:text-4xl lg:text-4xl md:text-4xl font-light'>
-          Software Engineer
+          {role}
         </h4>
         {/* company name */}
         <p className='font-bold text-2xl mt-1'>
-          Emori Creative
+          {companyName}
         </p>
         <div className='flex space-x-2 my-2 max-w-56'>
           {/* tech stack that used */}
             <img
               className='h-10 w-10 rounded-full'
-              src='https://i.ibb.co/Cvx0M9D/Vue-js-Logo-2-svg.png'
+              src={skill}
               alt=''
             />
-              <img
+             <img
               className='h-10 w-10 rounded-full'
-              src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Wordpress_Blue_logo.png/600px-Wordpress_Blue_logo.png'
+              src={skill2}
+              alt=''
+            />
+             <img
+              className='h-10 w-10 rounded-full'
+              src={skill3}
+              alt=''
+            />
+             <img
+              className='h-10 w-10 rounded-full'
+              src={skill4}
               alt=''
             />
         </div>
         {/* STARTED WORK...- ENDED... */}
         <p className='uppercase py-5 text-gray-300'>
-          22 Dec 2022 - Present
+          {dateIn} - {dateEnded} {currentlyWork}
         </p>
         <ul className='list-disc space-y-4 ml-5 text-lg max-h-96'>
-          <li>Build frontend & backend side.</li>
-          <li>Build a few company profile website.</li>
-          <li>Build a few landing page website.</li>
-          <li>Work with code & no code environment in development.</li>
+          <li>{summary1}</li>
+          <li>{summary2}</li>
+          <li>{summary3}</li>
+          <li>{summary4}</li>
+
         </ul>
       </div>
     </motion.article>
