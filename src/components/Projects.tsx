@@ -7,7 +7,7 @@ type Props = {
   project: Project[];
 };
 
-const Projects = ({project}: Props) => {
+const Projects = ({ project }: Props) => {
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly items-center mx-auto z-0'>
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
@@ -21,9 +21,7 @@ const Projects = ({project}: Props) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.3 }}
             className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
-            key={
-              project._id
-            }
+            key={project._id}
           >
             <motion.img
               // initial={{ y: -300, opacity: 0 }}
@@ -31,12 +29,10 @@ const Projects = ({project}: Props) => {
               // whileInView={{ opacity: 1, y: 1 }}
               viewport={{ once: true }}
               src={urlFor(project.image).url()}
-
               // https://i.ibb.co/GC0LnRz/imaages.png coffeeshop
               // https://i.ibb.co/LPZKGQs/images-1.webp e-wallet
               alt=''
-
-              className="relative w-[100%] md:w-[100%] xl:w-[666px] object-cover"
+              className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
             />
 
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -48,15 +44,19 @@ const Projects = ({project}: Props) => {
                 {project?.title}
               </h4>
 
-              <div className="flex items-center space-x-2 justify-center">
-                {project?.technologies.map((technology) => (
-                  <img 
-                  className="h-10 w-10 rounded-full"
-                  key={technology._id}
-                  src={urlFor(technology.image).url()}
-                  alt=""
-                  />
-                ))}
+              <div className='flex items-center space-x-2 justify-center'>
+                {project?.technologies.map(
+                  (technology) => (
+                    <img
+                      className='h-10 w-10 rounded-full'
+                      key={technology._id}
+                      src={urlFor(
+                        technology.image,
+                      ).url()}
+                      alt=''
+                    />
+                  ),
+                )}
               </div>
 
               <p className='text-lg text-center md:text-left'>
