@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import Skill from "./Skill";
 import { Skill as SkillType } from "../../typing";
+import { Fragment } from "react"
 
 type Props = {
   skills: SkillType[];

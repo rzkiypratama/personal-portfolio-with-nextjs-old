@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Project } from "../../typing";
 import { urlFor } from "../../sanity";
+import { Fragment } from "react"
 
 type Props = {
   project: Project[];

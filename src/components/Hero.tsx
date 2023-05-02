@@ -8,6 +8,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { PageInfo } from "../../typing";
 import { urlFor } from "../../sanity";
+import { Fragment } from "react"
 
 type Props = {
   pageInfo: PageInfo

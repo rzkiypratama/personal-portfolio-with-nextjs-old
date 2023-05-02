@@ -4,6 +4,7 @@ SocialIcon;
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Social } from "../../typing";
+import { Fragment } from "react"
 
 type Props = {
   social: Social[];
