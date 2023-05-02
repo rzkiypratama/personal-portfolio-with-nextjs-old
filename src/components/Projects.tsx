@@ -22,7 +22,7 @@ const Projects = ({project}: Props) => {
             transition={{ duration: 1.3 }}
             className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
             key={
-              i
+              project._id
             }
           >
             <motion.img
