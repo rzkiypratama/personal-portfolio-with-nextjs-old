@@ -6,18 +6,14 @@ import {
 import BackgroundCircle from "./BackgroundCircle";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { PageInfo } from "../../typing";
-import { urlFor } from "../../sanity";
-import { Fragment } from "react"
 
 type Props = {
-  pageInfo: PageInfo
 };
 
-function Hero({pageInfo}: Props) {
+function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      `Hi, the name is ${pageInfo?.name}`,
+      "Hi, the name is Rizky Putra",
       "I'm a software engineer",
       "React, Next, Vue for my FE",
       "Node, Express, Laravel for BE"
@@ -30,7 +26,7 @@ function Hero({pageInfo}: Props) {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircle />
       <img
-        src={urlFor(pageInfo?.heroImage).url()}
+        src='https://i.ibb.co/YX0YJKs/putra.jpg'
         alt=''
         className='relative rounded-full h-32 w-32 mx-auto object-cover'
       />
@@ -50,7 +46,7 @@ function Hero({pageInfo}: Props) {
           duration: 1.2,
         }}
         className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
-          {pageInfo?.role}
+          Software Engineer
         </motion.h2>
         <h1 className='text-2xl md:text-5xl lg:text-6xl font-semibold px-0'>
           <span className='mr-3'>{text}</span>

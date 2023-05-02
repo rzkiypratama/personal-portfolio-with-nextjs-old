@@ -1,14 +1,10 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { PageInfo } from "../../typing";
-import { urlFor } from "../../sanity";
-import { Fragment } from "react"
 
 type Props = {
-  pageInfo: PageInfo
 };
 
-function About({pageInfo}: Props) {
+function About({}: Props) {
   return (
     <motion.div
       initial={{
@@ -43,7 +39,7 @@ function About({pageInfo}: Props) {
         viewport={{
           once: true,
         }}
-        src={urlFor(pageInfo?.profilePic).url()}
+        src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1688601600&v=beta&t=FZHcxkhSeei2gU_fGs-kByz5_ekixRAhA53blrJoGow'
         className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[6rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 </div>
