@@ -65,7 +65,7 @@ function About({pageInfo}: Props) {
           front-end and NodeJS for back-end. With
           prior experience in design and digital
           marketing, I create visually appealing
-          and functional websites.
+          and functional websites and mobile apps.
           {/* I am a full-stack web developer. I can
           turn your figma design into website! I
           have expertise working with Reactjs,
