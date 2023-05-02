@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { Project } from "../../typing";
+import { urlFor } from "../../sanity";
 
-type Props = {};
+type Props = {
+  project: Project[];
+};
 
-const Projects = (props: Props) => {
-  const projects = [1, 2, 3];
+const Projects = ({project}: Props) => {
   return (
     <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly items-center mx-auto z-0'>
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
@@ -12,7 +15,7 @@ const Projects = (props: Props) => {
       </h3>
 
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
-        {projects.map((project, i) => (
+        {project.map((project, i) => (
           <motion.div
             initial={{ y: -200, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +30,7 @@ const Projects = (props: Props) => {
               transition={{ duration: 1.2 }}
               // whileInView={{ opacity: 1, y: 1 }}
               viewport={{ once: true }}
-              src='https://i.ibb.co/LPZKGQs/images-1.webp'
+              src={urlFor(project.image).url()}
 
               // https://i.ibb.co/GC0LnRz/imaages.png coffeeshop
               // https://i.ibb.co/LPZKGQs/images-1.webp e-wallet
@@ -40,13 +43,24 @@ const Projects = (props: Props) => {
               <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
                 <span className='underline decoration-[#F7AB0A]/50'>
                   Case Study {i + 1} of{" "}
-                  {projects.length}:
+                  {project.length}:
                 </span>{" "}
-                E-Wallet
+                {project?.title}
               </h4>
 
+              <div className="flex items-center space-x-2 justify-center">
+                {project?.technologies.map((technology) => (
+                  <img 
+                  className="h-10 w-10 rounded-full"
+                  key={technology._id}
+                  src={urlFor(technology.image).url()}
+                  alt=""
+                  />
+                ))}
+              </div>
+
               <p className='text-lg text-center md:text-left'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, seds.
+                {project?.summary}
               </p>
             </div>
           </motion.div>

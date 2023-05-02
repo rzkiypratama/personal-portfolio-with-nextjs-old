@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { PageInfo } from "../../typing";
+import { urlFor } from "../../sanity";
 
-type Props = {};
+type Props = {
+  pageInfo: PageInfo
+};
 
-function About({}: Props) {
+function About({pageInfo}: Props) {
   return (
     <motion.div
       initial={{
@@ -38,7 +42,7 @@ function About({}: Props) {
         viewport={{
           once: true,
         }}
-        src='https://pbs.twimg.com/profile_banners/340250595/1658615358/600x200'
+        src={urlFor(pageInfo?.profilePic).url()}
         className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[6rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 </div>

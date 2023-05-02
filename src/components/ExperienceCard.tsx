@@ -1,9 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { Experience } from "../../typing";
+import { urlFor } from "../../sanity";
 
-type Props = {};
+type Props = {
+  experience: Experience
+};
 
-const ExperienceCard = (props: Props) => {
+const ExperienceCard = ({experience}: Props) => {
   return (
     <motion.article
       initial={{
@@ -13,7 +17,7 @@ const ExperienceCard = (props: Props) => {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className='flex flex-col rounded-[1rem] items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[3.5rem] md:mt-0 overflow-hidden cursor-pointer'
+      className='flex flex-col rounded-[1rem] items-center space-y-7 flex-shrink-0 w-[390px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[3.5rem] md:mt-0 overflow-hidden cursor-pointer'
     >
       <motion.img
         initial={{
@@ -24,51 +28,39 @@ const ExperienceCard = (props: Props) => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
-        src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1686182400&v=beta&t=79gYoL8xREV342zltonX98pJtdqksstJTwVVosm6zFQ'
+        src={urlFor(experience?.companyImage).url()}
         alt=''
       />
 
       <div className='px-0 md:px-10'>
         {/* your role */}
         <h4 className='text-[2rem] xl:text-4xl lg:text-4xl md:text-4xl font-light'>
-          Frontend Developer
+          {experience.jobTitle}
         </h4>
         {/* company name */}
         <p className='font-bold text-2xl mt-1'>
-          Emori Creative
+          {experience.company}
         </p>
-        <div className='flex space-x-2 my-2'>
+        <div className='flex space-x-2 my-2 max-w-56'>
           {/* tech stack that used */}
-          <img
-            className='h-10 w-10 rounded-full '
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png'
-            alt=''
-          />
-          <img
-            className='h-10 w-10 rounded-full '
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png'
-            alt=''
-          />
-          <img
-            className='h-10 w-10 rounded-full '
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png'
-            alt=''
-          />
-          <img
-            className='h-10 w-10 rounded-full '
-            src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/640px-Javascript-736400_960_720.png'
-            alt=''
-          />
+          {experience.technologies.map((technology) => (
+            <img
+              className='h-10 w-10 rounded-full '
+              src={urlFor(technology.image).url()}
+              alt=''
+            />
+          
+          ))}
         </div>
         {/* STARTED WORK...- ENDED... */}
         <p className='uppercase py-5 text-gray-300'>
-          MON - FEB 13 2023 - PRESENT
+          {new Date(experience.dateStarted).toDateString()} -{" "}
+          {experience.isCurrentlyWorkingHere ? "Present" : new Date(experience.dateEnded).toDateString()}
         </p>
-        <ul className='list-disc space-y-4 ml-5 text-lg'>
-          <li>Summary Point</li>
-          <li>Summary Point</li>
-          <li>Summary Point</li>
-          <li>Summary Point</li>
+        <ul className='list-disc space-y-4 ml-5 text-lg max-h-96'>
+         {experience.points.map((point, i) => (
+          <li key={i}>{point}</li>
+         ))}
         </ul>
       </div>
     </motion.article>
