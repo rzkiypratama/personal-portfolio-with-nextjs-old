@@ -25,7 +25,7 @@ const Projects = ({ project }: Props) => {
           >
             <motion.img
               // initial={{ y: -300, opacity: 0 }}
-              transition={{ duration: 1.2 }}
+              transition={{ duration: 1.1 }}
               // whileInView={{ opacity: 1, y: 1 }}
               viewport={{ once: true }}
               src={urlFor(project.image).url()}
