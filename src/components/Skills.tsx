@@ -33,7 +33,7 @@ const Skills = ({}: Props) => {
         viewport={{
           once: true,
         }}
-        className='grid grid-cols-3 md:grid-cols-4 gap-3 md:gap-5 justify-center'
+        className='grid grid-cols-3 mt-[5rem] md:grid-cols-4 gap-3 md:gap-5 justify-center'
       >
           <Skill
           src='https://i.ibb.co/Cvx0M9D/Vue-js-Logo-2-svg.png'
