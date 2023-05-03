@@ -23,7 +23,7 @@ function About({}: Props) {
       </h3>
 
 
-<div className="w-full mx-auto pt-[5rem] md:pt-0 pb-[1rem] md:pb-0">
+<div className="w-full mx-auto pt-[3rem] md:pt-0 pb-[0.5rem] md:pb-0">
       <motion.img
         initial={{
           x: -200,
@@ -40,7 +40,7 @@ function About({}: Props) {
           once: true,
         }}
         src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1688601600&v=beta&t=FZHcxkhSeei2gU_fGs-kByz5_ekixRAhA53blrJoGow'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[6rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[7rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 </div>
 
