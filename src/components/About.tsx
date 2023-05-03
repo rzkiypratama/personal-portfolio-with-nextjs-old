@@ -79,8 +79,8 @@ function About({}: Props) {
           challenges in web development. Let&apos;s
           work together on your next project!
         </p>
-        <a href="">
-        <p className="underline hover:cursor-pointer">Here is my latest CV</p>
+        <a href="src\assets\Resume-Rizky-Putra.pdf" download>
+        <p className="underline hover:cursor-pointer">Click here to download my latest CV</p>
         </a>
       </div>
     </motion.div>
