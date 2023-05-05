@@ -28,7 +28,7 @@ const Projects = ({}: Props) => {
           />
 
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-            <h4 className='text-xl lg:text-4xl md:text-4xl font-semibold text-center'>
+            <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
                 Case Study 1 of 4:
               </span>{" "}

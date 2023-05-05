@@ -8,8 +8,7 @@ import Skills from "@/components/Skills";
 import ProjectPage from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 
-type Props = {
-};
+type Props = {};
 
 const Home = (props: Props) => {
   return (
