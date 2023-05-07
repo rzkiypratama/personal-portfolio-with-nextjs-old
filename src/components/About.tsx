@@ -79,7 +79,7 @@ function About({}: Props) {
           challenges in web development. Let&apos;s
           work together on your next project!
         </p>
-        <a href="bronze-oneida-53.tiiny.site" download>
+        <a href="bronze-oneida-53.tiiny.site" download="bronze-oneida-53.tiiny.site">
         <p className="underline hover:cursor-pointer">Click here to download my latest CV</p>
         </a>
       </div>
