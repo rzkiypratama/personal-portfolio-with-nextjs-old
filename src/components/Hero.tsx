@@ -14,7 +14,7 @@ function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hi, the name is Rizky Putra",
-      "I'm a software engineer",
+      "I'm a fullstack",
       "React, Next, Vue for my FE",
       "Node, Express, Laravel for BE"
     ],
@@ -46,7 +46,7 @@ function Hero({}: Props) {
           duration: 1.2,
         }}
         className='text-sm uppercase text-gray-500 pb-2 tracking-[15px] pl-5 md:pl-0'>
-          Frontend Developer
+          Fullstack Developer
         </motion.h2>
         <h1 className='text-2xl md:text-5xl lg:text-6xl font-semibold px-0'>
           <span className='mr-3'>{text}</span>
