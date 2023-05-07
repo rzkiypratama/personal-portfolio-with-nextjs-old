@@ -74,12 +74,12 @@ function About({}: Props) {
 
         <p>
           Curently i&apos;m working in Emori Creative
-          as Frontend Developer. I&apos;m passionate
+          as Software Engineer. I&apos;m passionate
           about learning and taking on new
           challenges in web development. Let&apos;s
           work together on your next project!
         </p>
-        <a href="bronze-oneida-53.tiiny.site" download="bronze-oneida-53.tiiny.site">
+        <a href="src/assets/Resume-Rizky-Putra.pdf" download="src/assets/Resume-Rizky-Putra.pdf">
         <p className="underline hover:cursor-pointer">Click here to download my latest CV</p>
         </a>
       </div>
