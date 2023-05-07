@@ -29,7 +29,7 @@ const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className='flex flex-col rounded-[1rem] items-center space-y-0 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[5.7rem] mb-8 md:mt-0 overflow-hidden cursor-pointer'
+      className='flex flex-col rounded-[1rem] items-center space-y-0 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[5rem] mb-8 md:mt-0 overflow-hidden cursor-pointer'
     >
       <motion.img
         initial={{
