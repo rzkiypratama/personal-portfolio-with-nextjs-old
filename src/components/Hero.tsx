@@ -45,7 +45,7 @@ function Hero({}: Props) {
         transition={{
           duration: 1.2,
         }}
-        className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
+        className='text-sm uppercase text-gray-500 pb-2 tracking-[15px] pl-5 md:pl-0'>
           Frontend Developer
         </motion.h2>
         <h1 className='text-2xl md:text-5xl lg:text-6xl font-semibold px-0'>

@@ -30,22 +30,28 @@ const ContactMe = (props: Props) => {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 md:text-2xl text-xl text-center m-auto'>
+      <h3 className='absolute top-24 uppercase tracking-[20px] pl-6 md:pl-0 text-gray-500 md:text-2xl text-xl text-center m-auto'>
         Contact Me
       </h3>
 
       <div className='flex flex-col space-y-10 pt-[4.5rem] md:pt-0'>
-        <h4 className='text-xl xl:text-4xl md:text-4xl font-semibold text-center'>
+        <h4 className='text-lg xl:text-4xl md:text-4xl font-semibold text-center'>
           I have got just what you need.{" "}
           <span className='decoration-[#F7AB0A]/50 underline animate-pulse'>
             Lets Talk.
           </span>
         </h4>
 
-        <div className='space-y-2 md:space-y-10'>
+        <div className='space-y-1 md:space-y-10'>
           <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
+            <a 
+            target='_blank'
+            href="https://wa.link/77kbxt"
+            rel='noopener noreferrer'
+            >
             <p>+62-859-7172-4967</p>
+            </a>
           </div>
 
           <div className='flex items-center space-x-5 justify-center'>
@@ -55,11 +61,11 @@ const ContactMe = (props: Props) => {
 
           <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-            <p>123 Developer Lan</p>
+            <p>Banjarbaru, South Kalimantan.</p>
           </div>
         </div>
 
-        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-full mx-auto'>
+        <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-1 w-full mx-auto'>
           {/* <div className='flex md:flex-col space-x-2 '> */}
             <input
             {...register('name')}
