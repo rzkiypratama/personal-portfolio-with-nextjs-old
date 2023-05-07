@@ -29,7 +29,7 @@ const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className='flex flex-col rounded-[1rem] items-center space-y-7 flex-shrink-0 w-[390px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[3.5rem] md:mt-0 overflow-hidden cursor-pointer'
+      className='flex flex-col rounded-[1rem] items-center space-y-0 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[5.7rem] mb-8 md:mt-0 overflow-hidden cursor-pointer'
     >
       <motion.img
         initial={{
@@ -39,18 +39,18 @@ const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+        className='w-[6rem] h-[6rem] rounded-full xl:w-[500px] xl:h-[200px] object-cover object-center animate-pulse'
         src={companyImages}
         alt=''
       />
 
       <div className='px-0 md:px-10'>
         {/* your role */}
-        <h4 className='text-[2rem] xl:text-4xl lg:text-4xl md:text-4xl font-light'>
+        <h4 className='text-[1.7rem] xl:text-4xl lg:text-4xl md:text-4xl font-light'>
           {role}
         </h4>
         {/* company name */}
-        <p className='font-bold text-2xl mt-1'>
+        <p className='font-bold text-xl mt-1'>
           {companyName}
         </p>
         <div className='flex space-x-2 my-2 max-w-56'>
