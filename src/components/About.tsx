@@ -40,7 +40,7 @@ function About({}: Props) {
           once: true,
         }}
         src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1688601600&v=beta&t=FZHcxkhSeei2gU_fGs-kByz5_ekixRAhA53blrJoGow'
-        className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[7rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[7rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[700px] xl:h-[500px]'
       />
 </div>
 
@@ -79,8 +79,8 @@ function About({}: Props) {
           challenges in web development. Let&apos;s
           work together on your next project!
         </p>
-        <a href="src/assets/Resume-Rizky-Putra.pdf" download="src/assets/Resume-Rizky-Putra.pdf">
-        <p className="underline hover:cursor-pointer">Click here to download my latest CV</p>
+        <a className="underline hover:cursor-pointer"
+        target="_blank" href="https://www.dropbox.com/s/o1i54hejdsv2z40/Resume-Rizky-Putra.pdf?dl=0" download='https://www.dropbox.com/s/o1i54hejdsv2z40/Resume-Rizky-Putra.pdf?dl=0'>Click here to download my latest CV
         </a>
       </div>
     </motion.div>
