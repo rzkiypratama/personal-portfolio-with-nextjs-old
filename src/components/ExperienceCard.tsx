@@ -39,7 +39,7 @@ const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-[6rem] h-[6rem] rounded-full xl:w-[500px] xl:h-[200px] object-cover object-center animate-pulse'
+        className='w-[6rem] h-[6rem] rounded-full xl:w-[500px] xl:h-[200px] object-cover object-center'
         src={companyImages}
         alt=''
       />
