@@ -51,14 +51,7 @@ const Projects = ({}: Props) => {
             </div> */}
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
-            The Monlight Cafe application offers a range of features for the public, users, and admins alike. As a user, you can easily place orders, view product details, and complete transactions. As an admin, you can manage and update the product catalogue, add new products, and perform a range of other tasks to ensure seamless operations.
-              {/* Application for monlight cafe which
-              has features for the public, users,
-              and admin. As users we can place
-              orders, check product details and
-              make purchases. As admins we can
-              edit products, add new products and
-              every admin-side do! */}
+            The Monlight Cafe application is referer to Monlight Cafe at Banjarbaru, offers a range of features for the public, users, and admins alike. As a user, you can easily place orders, view product details, and complete transactions. As an admin, you can manage and update the product catalogue, add new products, and perform a range of other tasks to ensure seamless operations.
             </p>
           </div>
         </motion.div>
@@ -104,10 +97,6 @@ const Projects = ({}: Props) => {
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
             This digital wallet application allows users to effortlessly send and receive transfers, access search features, and manage their profiles, among other features. It offers the convenience and functionality of leading digital wallets such as GoP** and Dan*, making it a reliable and efficient choice for all your digital payment needs.
-              {/* Digital wallet application that you
-              can make transfers and receive
-              transfers, search features, profiles
-              etc like gop**, dan*, etc! */}
             </p>
           </div>
         </motion.div>
@@ -153,13 +142,6 @@ const Projects = ({}: Props) => {
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
             This website offers a comprehensive ecommerce platform for furniture sales, complete with a range of features to enhance user experience. Users can easily upload their furniture products to sell, while customers can seamlessly place orders and browse available items. In addition, users can access a search function to find the perfect pieces, and edit their profiles to ensure seamless communication and transaction management.
-              {/* Website for furniture ecommerce,
-              there are many features likes
-              ecommerce in general. User can
-              upload their products to sell it,
-              while other users can place orders
-              to bought it, search products and
-              edit their profile too. */}
             </p>
           </div>
         </motion.div>
@@ -205,20 +187,9 @@ const Projects = ({}: Props) => {
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
             Experience the convenience of booking movie tickets online with our dedicated cinema ticket booking application. As a user, you can easily search for available movies, place orders, manage your profile, and access a range of other features designed to streamline the booking process. Our admin feature allows movie theatre operators to easily add new movies and schedules, ensuring the latest information is always available to users.
-              {/* Have you ever try booking movie
-              tickets through online? Try this!
-              Cinema ticket booking application.
-              As user you can search, order, edit
-              your profile, etc. There is an admin
-              feature that can add movies and
-              schedules. */}
             </p>
           </div>
         </motion.div>
-
-        {/* projects */}
-        {/* projects */}
-        {/* projects */}
       </div>
 
       <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'></div>

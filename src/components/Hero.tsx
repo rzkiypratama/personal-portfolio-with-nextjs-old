@@ -13,8 +13,9 @@ type Props = {
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, the name is Rizky Putra",
-      "I'm a fullstack",
+      "Hi there, my name Rizky Putra",
+      "You can call me Putra",
+      "I'm a fullstack developer",
       "React, Next, Vue for my FE",
       "Node, Express, Laravel for BE"
     ],
