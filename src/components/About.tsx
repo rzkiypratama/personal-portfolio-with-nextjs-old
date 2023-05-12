@@ -39,7 +39,7 @@ function About({}: Props) {
         viewport={{
           once: true,
         }}
-        src='https://media.licdn.com/dms/image/D5603AQFahoCGJVPcTw/profile-displayphoto-shrink_400_400/0/1679397025923?e=1688601600&v=beta&t=FZHcxkhSeei2gU_fGs-kByz5_ekixRAhA53blrJoGow'
+        src='https://i.ibb.co/WVDtpRr/znmg-Mh47-400x400.jpg'
         className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[7rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[700px] xl:h-[500px]'
       />
 </div>
