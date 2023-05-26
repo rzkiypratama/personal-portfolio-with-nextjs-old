@@ -68,3 +68,13 @@ const Home = (props: Props) => {
 };
 
 export default Home;
+
+export async function getStaticProps() {
+  // Tidak ada pemanggilan API atau pengambilan data eksternal
+
+  // Mengembalikan objek props kosong
+  return {
+    props: {},
+    revalidate: 3600 // Menentukan interval pembuatan ulang halaman dalam detik (misalnya, 1 jam)
+  };
+}
