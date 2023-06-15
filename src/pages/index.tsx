@@ -23,13 +23,13 @@ const Home = (props: Props) => {
         <Hero />
       </section>
 
-      <section id='about' className=''>
+      <section id='about' className='snap-center'>
         <About />
       </section>
 
       <section
         id='experience'
-        className=''
+        className='snap-center'
       >
         <WorkExperience />
       </section>
