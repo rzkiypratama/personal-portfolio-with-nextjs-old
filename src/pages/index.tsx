@@ -19,35 +19,35 @@ const Home = (props: Props) => {
 
       <Header />
 
-      <section id='hero' className='snap-start'>
+      <section id='hero' className=''>
         <Hero />
       </section>
 
-      <section id='about' className='snap-center'>
+      <section id='about' className=''>
         <About />
       </section>
 
       <section
         id='experience'
-        className='snap-center'
+        className=''
       >
         <WorkExperience />
       </section>
 
-      <section id='skills' className='snap-start'>
+      <section id='skills' className=''>
         <Skills />
       </section>
 
       <section
         id='projects'
-        className='snap-start'
+        className=''
       >
         <ProjectPage />
       </section>
 
       <section
         id='contact'
-        className='snap-start'
+        className=''
       >
         <ContactMe />
       </section>
