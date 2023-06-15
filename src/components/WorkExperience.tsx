@@ -20,6 +20,23 @@ const WorkExperience = ({}: Props) => {
       </h3>
 
       <div className='w-[24rem] md:w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
+      <ExperienceCard 
+         companyImages='https://media.licdn.com/dms/image/C4D0BAQHZfRlfSt0sSw/company-logo_200_200/0/1554952455099?e=1694649600&v=beta&t=mR9pqyfCvK4aQcptKiR4OSpiTWHHiDL8iGXcpNPSj5w'
+         role = 'Software Developer'
+         companyName = "Orion Scope"
+         skill='https://i.ibb.co/Cvx0M9D/Vue-js-Logo-2-svg.png'
+         skill2='https://i.ibb.co/mzsvQFP/Tailwind-CSS-Logo-svg.png'
+         skill3="https://i.ibb.co/72WMfHp/Typescript-logo-2020-svg.png"
+         skill4="https://www.pngrepo.com/png/354119/512/nodejs-icon.png"
+         dateIn='02 June 2023'
+         dateEnded=""
+         currentlyWork= 'Present'
+         summary1='[Will update soon]'
+         summary2=''
+         summary3=''
+         summary4=''
+        />
+
         <ExperienceCard
           companyImages='https://i.ibb.co/8D6FgPv/315365548-1332739860915960-254522410530346543-n.jpg'
           role = 'Software Engineer'
