@@ -29,7 +29,7 @@ const ContactMe = (props: Props) => {
   ) => window.location.href = `mailto:pratamabusiness@gmail?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
 
   return (
-    <div className=' flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
       <h3 className='absolute top-24 uppercase tracking-[20px] pl-6 md:pl-0 text-gray-500 md:text-2xl text-xl text-center m-auto'>
         Contact Me
       </h3>

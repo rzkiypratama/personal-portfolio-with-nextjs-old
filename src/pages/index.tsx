@@ -19,7 +19,7 @@ const Home = (props: Props) => {
 
       <Header />
 
-      <section id='hero' className=''>
+      <section id='hero' className='snap-start'>
         <Hero />
       </section>
 
@@ -34,20 +34,20 @@ const Home = (props: Props) => {
         <WorkExperience />
       </section>
 
-      <section id='skills' className=''>
+      <section id='skills' className='snap-start'>
         <Skills />
       </section>
 
       <section
         id='projects'
-        className=''
+        className='snap-start'
       >
         <ProjectPage />
       </section>
 
       <section
         id='contact'
-        className=''
+        className='snap-start'
       >
         <ContactMe />
       </section>
