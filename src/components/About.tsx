@@ -73,8 +73,8 @@ function About({}: Props) {
         </p>
 
         <p>
-          Curently i&apos;m working in Emori Creative
-          as Software Engineer. I&apos;m passionate
+          Curently i&apos;m working in Orion Scope
+          as Software Developer. I&apos;m passionate
           about learning and taking on new
           challenges in web development. Let&apos;s
           work together on your next project!
