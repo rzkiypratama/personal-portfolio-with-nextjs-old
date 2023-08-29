@@ -252,7 +252,7 @@ const Projects = ({}: Props) => {
             </h4>
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
-            This website offers a comprehensive ecommerce platform for furniture sales, complete with a range of features to enhance user experience. Users can easily upload their furniture products to sell, while customers can seamlessly place orders and browse available items. In addition, users can access a search function to find the perfect pieces, and edit their profiles to ensure seamless communication and transaction management.
+              This website offers a comprehensive ecommerce platform for furniture sales, complete with a range of features to enhance user experience. Users can easily upload their furniture products to sell, while customers can seamlessly place orders and browse available items. In addition, users can access a search function to find the perfect pieces, and edit their profiles to ensure seamless communication and transaction management.
             </p>
           </div>
         </motion.div>
