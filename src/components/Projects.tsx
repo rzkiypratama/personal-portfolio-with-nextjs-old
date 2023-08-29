@@ -5,6 +5,8 @@ import { useState } from "react";
 type Props = {};
 
 const Projects = ({}: Props) => {
+const mobileProject = [1, 2, 3, 4, 5]
+
   const caseStudies = [
     {
       image:
@@ -23,6 +25,13 @@ const Projects = ({}: Props) => {
         "This digital wallet application allows users to effortlessly send and receive transfers, access search features, and manage their profiles, among other features. It offers the convenience and functionality of leading digital wallets such as GoP** and Dan*, making it a reliable and efficient choice for all your digital payment needs..",
     },
     {
+      image: "https://i.ibb.co/VqzjCr1/surabayasatu-co-id.png",
+      title: "Surabaya Satu Construction",
+      link: "https://surabayasatu.co.id",
+      description:
+        "This is official website for Surabaya Satu Construction, made by low code wordpress elementor and custom css for better styling. It has several pages like blog, gallery, etc",
+    },
+    {
       image:
         "https://i.ibb.co/X22QjJx/imageeesa.png",
       title: "Movie Ticketing - Tickits",
@@ -39,6 +48,11 @@ const Projects = ({}: Props) => {
         "This website offers a comprehensive ecommerce platform for furniture sales, complete with a range of features to enhance user experience. Users can easily upload their furniture products to sell, while customers can seamlessly place orders and browse available items. In addition, users can access a search function to find the perfect pieces, and edit their profiles to ensure seamless communication and transaction management.",
     },
   ];
+
+ const [
+    mobileStudyIndex,
+    setMobileStudyIndex,
+  ] = useState(0);
 
   const [
     currentStudyIndex,
@@ -137,7 +151,8 @@ const Projects = ({}: Props) => {
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study 1 of 4:
+                Case Study {mobileStudyIndex + 1}{" "}
+                of {mobileProject.length}:
               </span>{" "}
               <a
                 target='_blank'
@@ -171,7 +186,8 @@ const Projects = ({}: Props) => {
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study 2 of 4:
+                Case Study {mobileStudyIndex + 2}{" "}
+                of {mobileProject.length}:
               </span>{" "}
               <a
                 target='_blank'
@@ -205,7 +221,8 @@ const Projects = ({}: Props) => {
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study 3 of 4:
+                Case Study {mobileStudyIndex + 3}{" "}
+                of {mobileProject.length}:
               </span>{" "}
               <a
                 target='_blank'
@@ -239,7 +256,8 @@ const Projects = ({}: Props) => {
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study 4 of 4:
+                Case Study {mobileStudyIndex + 4}{" "}
+                of {mobileProject.length}:
               </span>{" "}
               <a
                 target='_blank'
@@ -253,6 +271,41 @@ const Projects = ({}: Props) => {
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
               This website offers a comprehensive ecommerce platform for furniture sales, complete with a range of features to enhance user experience. Users can easily upload their furniture products to sell, while customers can seamlessly place orders and browse available items. In addition, users can access a search function to find the perfect pieces, and edit their profiles to ensure seamless communication and transaction management.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='flex w-screen flex-shrink-0 snap-center lg:hidden flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
+            src="https://i.ibb.co/VqzjCr1/surabayasatu-co-id.png"
+            alt=''
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study {mobileStudyIndex + 5}{" "}
+                of {mobileProject.length}:
+              </span>{" "}
+              <a
+                target='_blank'
+                href="https://surabayasatu.co.id"
+                rel='noopener noreferrer'
+                className='cursor-pointer'
+              >
+                Surabaya Satu Construction
+              </a>
+            </h4>
+
+            <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
+              This is official website for Surabaya Satu Construction, made by low code wordpress elementor and custom css for better styling. It has several pages like blog, gallery, etc.
             </p>
           </div>
         </motion.div>
