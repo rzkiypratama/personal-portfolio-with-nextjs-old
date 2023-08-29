@@ -47,10 +47,10 @@ const ContactMe = (props: Props) => {
             <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
             <a 
             target='_blank'
-            href="https://wa.link/77kbxt"
+            href="https://wa.link/fg4vns"
             rel='noopener noreferrer'
             >
-            <p>+62-859-7172-4967</p>
+            <p>+62-859-7326-1973</p>
             </a>
           </div>
 
