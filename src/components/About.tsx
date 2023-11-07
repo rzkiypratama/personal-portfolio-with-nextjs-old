@@ -23,7 +23,7 @@ function About({}: Props) {
       </h3>
 
 
-<div className="w-full mx-auto pt-[3rem] md:pt-0 pb-[0.5rem] md:pb-0">
+<section className="w-full mx-auto pt-[3rem] md:pt-0 pb-[0.5rem] md:pb-0">
       <motion.img
         initial={{
           x: -200,
@@ -42,7 +42,7 @@ function About({}: Props) {
         src='https://i.ibb.co/WVDtpRr/znmg-Mh47-400x400.jpg'
         className='-mb-20 md:mb-0 flex-shrink-0 w-[100%] h-[7rem] rounded-lg object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[700px] xl:h-[500px]'
       />
-</div>
+</section>
 
       <div className='space-y-2 md:space-y-10 px-0 md:px-10'>
         <h4 className='text-2xl md:text-4xl font-semibold'>

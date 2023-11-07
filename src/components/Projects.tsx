@@ -44,7 +44,7 @@ const mobileProject = [1, 2, 3, 4, 5]
         Projects
       </h3>
 
-      <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
+      <section className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         {/* dekstop only */}
         <motion.div
           initial={{ y: -200, opacity: 0 }}
@@ -276,7 +276,7 @@ const mobileProject = [1, 2, 3, 4, 5]
             </p>
           </div>
         </motion.div>
-      </div>
+      </section>
 
       <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'></div>
     </div>

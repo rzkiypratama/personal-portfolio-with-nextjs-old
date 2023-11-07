@@ -1,6 +1,14 @@
 export const caseStudies = [
   {
     image:
+      "https://i.ibb.co/KhPHXZQ/bfl.png",
+    title: "Breakthrough for Life",
+    link: "https://https://bfl-center.com/",
+    description:
+      "BFL-center.com is a website developed using a low-code environment within the WordPress platform. The site features a blend of customized design elements through CSS, offering a unique and visually appealing user experience. It serves as the digital presence for the BFL Psychology Center, a part of the renowned Lippo Group Company, providing valuable insights and information related to their psychological services and expertise.",
+  },
+  {
+    image:
       "https://i.ibb.co/xKkxMPs/imaages.png",
     title: "Monlight Cafe",
     link: "https://monlight.vercel.app/",

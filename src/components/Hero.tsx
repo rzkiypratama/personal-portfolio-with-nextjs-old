@@ -24,7 +24,7 @@ function Hero({}: Props) {
   });
 
   return (
-    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <section className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircle />
       <img
         src='https://i.ibb.co/dm8Dn7B/imgggggg.png'
@@ -77,7 +77,7 @@ function Hero({}: Props) {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

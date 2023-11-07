@@ -8,7 +8,7 @@ type Props = {
 
 const Skills = ({}: Props) => {
   return (
-    <div className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
+    <section className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl pl-5 md:pl-0'>
         Skills
       </h3>
@@ -82,7 +82,7 @@ const Skills = ({}: Props) => {
 
     
       </motion.div>
-    </div>
+    </section>
   );
 };
 

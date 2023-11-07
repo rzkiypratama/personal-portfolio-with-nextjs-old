@@ -8,7 +8,7 @@ type Props = {
 
 function Skill({percent, src}: Props) {
   return (
-    <div className='group relative flex cursor-pointer'>
+    <section className='group relative flex cursor-pointer'>
       <motion.img
         initial={{
           x: -100,
@@ -31,7 +31,7 @@ function Skill({percent, src}: Props) {
           </p>
         </div>
       </div>
-    </div>
+    </section>
     
   );
 }
