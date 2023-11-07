@@ -8,7 +8,7 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 type Props = {};
 
 const Projects = ({}: Props) => {
-const mobileProject = [1, 2, 3, 4, 5]
+const mobileProject = [1, 2, 3, 4, 5, 6]
 
  const [
     mobileStudyIndex,
@@ -110,6 +110,41 @@ const mobileProject = [1, 2, 3, 4, 5]
           <motion.img
             transition={{ duration: 1.1 }}
             viewport={{ once: true }}
+            src="https://i.ibb.co/KhPHXZQ/bfl.png"
+            alt='Breakthrough for Life'
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study {mobileStudyIndex + 1}{" "}
+                of {mobileProject.length}:
+              </span>{" "}
+              <a
+                target='_blank'
+                href="https://bfl-center.com/"
+                rel='noopener noreferrer'
+                className='cursor-pointer'
+              >
+                Breakthrough for Life
+              </a>
+            </h4>
+
+            <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
+            BFL-center.com is a website developed using a low-code environment within the WordPress platform. The site features a blend of customized design elements through CSS, offering a unique and visually appealing user experience. It serves as the digital presence for the BFL Psychology Center, a part of the renowned Lippo Group Company, providing valuable insights and information related to their psychological services and expertise.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='flex w-screen flex-shrink-0 snap-center lg:hidden flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
             src="https://i.ibb.co/xKkxMPs/imaages.png"
             alt=''
             className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
@@ -118,7 +153,7 @@ const mobileProject = [1, 2, 3, 4, 5]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 1}{" "}
+                Case Study {mobileStudyIndex + 2}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -153,7 +188,7 @@ const mobileProject = [1, 2, 3, 4, 5]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 2}{" "}
+                Case Study {mobileStudyIndex + 3}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -188,7 +223,7 @@ const mobileProject = [1, 2, 3, 4, 5]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 3}{" "}
+                Case Study {mobileStudyIndex + 4}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -223,7 +258,7 @@ const mobileProject = [1, 2, 3, 4, 5]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 4}{" "}
+                Case Study {mobileStudyIndex + 5}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -258,7 +293,7 @@ const mobileProject = [1, 2, 3, 4, 5]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 5}{" "}
+                Case Study {mobileStudyIndex + 6}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
