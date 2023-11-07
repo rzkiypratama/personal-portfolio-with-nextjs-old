@@ -21,7 +21,7 @@ const WorkExperience = ({}: Props) => {
 
       <div className='w-[24rem] md:w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
       <ExperienceCard 
-         companyImages='https://media.licdn.com/dms/image/C4D0BAQHZfRlfSt0sSw/company-logo_200_200/0/1554952455099?e=1694649600&v=beta&t=mR9pqyfCvK4aQcptKiR4OSpiTWHHiDL8iGXcpNPSj5w'
+         companyImages='https://media.licdn.com/dms/image/C4D0BAQHZfRlfSt0sSw/company-logo_200_200/0/1554952455099?e=1707350400&v=beta&t=EwrPMDqOgF5j1YAvL-Ew7WGcj29_DnXUkj4H_4S3fGA'
          role = 'Software Developer'
          companyName = "Orion Scope"
          skill='https://i.ibb.co/Cvx0M9D/Vue-js-Logo-2-svg.png'
@@ -31,10 +31,10 @@ const WorkExperience = ({}: Props) => {
          dateIn='02 June 2023'
          dateEnded=""
          currentlyWork= 'Present'
-         summary1='[Will update soon]'
-         summary2=''
-         summary3=''
-         summary4=''
+         summary1='Maintenance and make UPH web faster'
+         summary2='Make CRT Website'
+         summary3='Make BFL Website'
+         summary4='Work with code & no code environtment'
         />
 
         <ExperienceCard
