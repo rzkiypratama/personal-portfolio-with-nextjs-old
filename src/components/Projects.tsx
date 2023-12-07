@@ -132,7 +132,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6, 7, 8]
             </h4>
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
-            Embark on a seamless adventure with our Labuan Bajo Travel Website. Explore, book, and schedule your dream trip effortlessly. Discover the enchanting attractions of Labuan Bajo with our user-friendly platform. Your tailored and unforgettable experience is just a click away. Start your journey now!
+            Embark on an unforgettable journey to Labuan Bajo with our Travel Website. Seamlessly order and schedule your trip with our user-friendly interface. Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience, and Strapi for a robust backend.
             </p>
           </div>
         </motion.div>
@@ -204,7 +204,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6, 7, 8]
             </h4>
 
             <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
-            Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Discover diverse items, experience effortless shopping, and stay informed with engaging content. Enhance your online journey with us today!
+            Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Discover diverse items, experience effortless shopping, and stay informed with engaging content.
             </p>
           </div>
         </motion.div>

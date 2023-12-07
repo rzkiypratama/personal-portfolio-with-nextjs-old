@@ -5,7 +5,7 @@ export const caseStudies = [
     title: "Booking System",
     link: "booking-system-eight.vercel.app",
     description:
-      "Embark on a seamless adventure with our Labuan Bajo Travel Website. Explore, book, and schedule your dream trip effortlessly. Discover the enchanting attractions of Labuan Bajo with our user-friendly platform. Your tailored and unforgettable experience is just a click away. Start your journey now!",
+      "Embark on an unforgettable journey to Labuan Bajo with our Travel Website. Seamlessly order and schedule your trip with our user-friendly interface. Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience, and Strapi for a robust backend.",
   },
   {
     image:
@@ -21,7 +21,7 @@ export const caseStudies = [
     title: "PT. Andalan Nusantara Adyatama",
     link: "https://pt-ana-website.vercel.app/",
     description:
-      "Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Discover diverse items, experience effortless shopping, and stay informed with engaging content. Enhance your online journey with us today!",
+      "Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience. Discover diverse items, experience effortless shopping, and stay informed with engaging content.",
   },
   {
     image:
