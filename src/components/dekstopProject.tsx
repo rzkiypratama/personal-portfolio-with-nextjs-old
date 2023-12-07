@@ -1,11 +1,27 @@
 export const caseStudies = [
   {
     image:
+      "https://i.ibb.co/nQzw3Gd/booking-system.png",
+    title: "Booking System",
+    link: "booking-system-eight.vercel.app",
+    description:
+      "Embark on a seamless adventure with our Labuan Bajo Travel Website. Explore, book, and schedule your dream trip effortlessly. Discover the enchanting attractions of Labuan Bajo with our user-friendly platform. Your tailored and unforgettable experience is just a click away. Start your journey now!",
+  },
+  {
+    image:
       "https://i.ibb.co/KhPHXZQ/bfl.png",
     title: "Breakthrough for Life",
     link: "https://bfl-center.com/",
     description:
       "BFL-center.com is a website developed using a low-code environment within the WordPress platform. The site features a blend of customized design elements through CSS, offering a unique and visually appealing user experience. It serves as the digital presence for the BFL Psychology Center, a part of the renowned Lippo Group Company, providing valuable insights and information related to their psychological services and expertise.",
+  },
+  {
+    image:
+      "https://i.ibb.co/Tmk6Dvq/pt-ana.png",
+    title: "PT. Andalan Nusantara Adyatama",
+    link: "https://pt-ana-website.vercel.app/",
+    description:
+      "Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Discover diverse items, experience effortless shopping, and stay informed with engaging content. Enhance your online journey with us today!",
   },
   {
     image:

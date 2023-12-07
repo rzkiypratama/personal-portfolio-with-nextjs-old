@@ -8,7 +8,7 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 type Props = {};
 
 const Projects = ({}: Props) => {
-const mobileProject = [1, 2, 3, 4, 5, 6]
+const mobileProject = [1, 2, 3, 4, 5, 6, 7, 8]
 
  const [
     mobileStudyIndex,
@@ -110,6 +110,42 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <motion.img
             transition={{ duration: 1.1 }}
             viewport={{ once: true }}
+            src="https://i.ibb.co/nQzw3Gd/booking-system.png"
+            alt='Booking System'
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study {mobileStudyIndex + 1}{" "}
+                of {mobileProject.length}:
+              </span>{" "}
+              <a
+                target='_blank'
+                href="booking-system-eight.vercel.app"
+                rel='noopener noreferrer'
+                className='cursor-pointer'
+              >
+                Booking System
+              </a>
+            </h4>
+
+            <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
+            Embark on a seamless adventure with our Labuan Bajo Travel Website. Explore, book, and schedule your dream trip effortlessly. Discover the enchanting attractions of Labuan Bajo with our user-friendly platform. Your tailored and unforgettable experience is just a click away. Start your journey now!
+            </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='flex w-screen flex-shrink-0 snap-center lg:hidden flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
             src="https://i.ibb.co/KhPHXZQ/bfl.png"
             alt='Breakthrough for Life'
             className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
@@ -118,7 +154,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 1}{" "}
+                Case Study {mobileStudyIndex + 2}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -136,6 +172,43 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
             </p>
           </div>
         </motion.div>
+
+        <motion.div
+          initial={{ y: -200, opacity: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.3 }}
+          className='flex w-screen flex-shrink-0 snap-center lg:hidden flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'
+        >
+          <motion.img
+            transition={{ duration: 1.1 }}
+            viewport={{ once: true }}
+            src="https://i.ibb.co/Tmk6Dvq/pt-ana.png"
+            alt='PT. Andalan Nusantara Adyatama'
+            className='relative w-[100%] md:w-[100%] xl:w-[666px] object-cover'
+          />
+
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            <h4 className='text-xl md:text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#F7AB0A]/50'>
+                Case Study {mobileStudyIndex + 3}{" "}
+                of {mobileProject.length}:
+              </span>{" "}
+              <a
+                target='_blank'
+                href="https://pt-ana-website.vercel.app/"
+                rel='noopener noreferrer'
+                className='cursor-pointer'
+              >
+                PT. Andalan Nusantara Adyatama
+              </a>
+            </h4>
+
+            <p className='text-base text-center md:text-left w-[23rem] md:w-full md:text-xl'>
+            Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Discover diverse items, experience effortless shopping, and stay informed with engaging content. Enhance your online journey with us today!
+            </p>
+          </div>
+        </motion.div>
+
         <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -153,7 +226,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 2}{" "}
+                Case Study {mobileStudyIndex + 4}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -171,6 +244,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
             </p>
           </div>
         </motion.div>
+
         <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -188,7 +262,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 3}{" "}
+                Case Study {mobileStudyIndex + 5}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -206,6 +280,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
             </p>
           </div>
         </motion.div>
+
         <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -223,7 +298,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 4}{" "}
+                Case Study {mobileStudyIndex + 6}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -241,6 +316,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
             </p>
           </div>
         </motion.div>
+
         <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -258,7 +334,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 5}{" "}
+                Case Study {mobileStudyIndex + 7}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
@@ -276,6 +352,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
             </p>
           </div>
         </motion.div>
+
         <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -293,7 +370,7 @@ const mobileProject = [1, 2, 3, 4, 5, 6]
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-xl md:text-4xl font-semibold text-center'>
               <span className='underline decoration-[#F7AB0A]/50'>
-                Case Study {mobileStudyIndex + 6}{" "}
+                Case Study {mobileStudyIndex + 8}{" "}
                 of {mobileProject.length}:
               </span>{" "}
               <a
