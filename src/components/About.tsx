@@ -80,7 +80,7 @@ function About({}: Props) {
           work together on your next project!
         </p>
         <a className="underline hover:cursor-pointer"
-        target="_blank" href="https://www.dropbox.com/s/o1i54hejdsv2z40/Resume-Rizky-Putra.pdf?dl=0" download='https://www.dropbox.com/s/o1i54hejdsv2z40/Resume-Rizky-Putra.pdf?dl=0'>Click here to download my latest CV
+        target="_blank" href="https://www.dropbox.com/scl/fi/eltrg56ige7qdir0j4k33/pratama-latest-cv.pdf?rlkey=wc2s5npv60twt1yf1zfwsic9u&dl=0" download='https://www.dropbox.com/scl/fi/eltrg56ige7qdir0j4k33/pratama-latest-cv.pdf?rlkey=wc2s5npv60twt1yf1zfwsic9u&dl=0'>Click here to download my latest CV
         </a>
       </div>
     </motion.div>
