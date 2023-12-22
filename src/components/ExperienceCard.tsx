@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-
 type Props = {
   companyImages: string;
   role: string;
@@ -19,7 +18,22 @@ type Props = {
   currentlyWork: string;
 };
 
-const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3, skill4, dateIn, dateEnded, summary1, summary2, summary3, summary4, currentlyWork}: Props) => {
+const ExperienceCard = ({
+  companyImages,
+  role,
+  companyName,
+  skill,
+  skill2,
+  skill3,
+  skill4,
+  dateIn,
+  dateEnded,
+  summary1,
+  summary2,
+  summary3,
+  summary4,
+  currentlyWork,
+}: Props) => {
   return (
     <motion.article
       initial={{
@@ -29,7 +43,7 @@ const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className='flex flex-col rounded-[1rem] items-center space-y-0 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-[5rem] mb-8 md:mt-0 md:mb-0 overflow-hidden cursor-pointer'
+      className="mb-8 mt-[5rem] flex w-[350px] flex-shrink-0 cursor-pointer snap-center flex-col items-center space-y-0 overflow-hidden rounded-[1rem] bg-[#292929] p-10 md:mb-0 md:mt-0 md:w-[600px] xl:w-[900px]"
     >
       <motion.img
         initial={{
@@ -39,53 +53,34 @@ const ExperienceCard = ({companyImages, role, companyName, skill, skill2, skill3
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className='w-[6rem] h-[6rem] rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center'
+        className="h-[6rem] w-[6rem] rounded-full object-cover object-center xl:h-[200px] xl:w-[200px]"
         src={companyImages}
-        alt=''
+        alt=""
       />
 
-      <div className='px-0 md:px-10'>
+      <div className="px-0 md:px-10">
         {/* your role */}
-        <h4 className='text-[1.7rem] xl:text-4xl lg:text-4xl md:text-4xl font-light'>
+        <h4 className="text-[1.7rem] font-light md:text-4xl lg:text-4xl xl:text-4xl">
           {role}
         </h4>
         {/* company name */}
-        <p className='font-bold text-xl mt-1'>
-          {companyName}
-        </p>
-        <div className='flex space-x-2 my-2 max-w-56'>
+        <p className="mt-1 text-xl font-bold">{companyName}</p>
+        <div className="max-w-56 my-2 flex space-x-2">
           {/* tech stack that used */}
-            <img
-              className='h-10 w-10 rounded-full'
-              src={skill}
-              alt=''
-            />
-             <img
-              className='h-10 w-10 rounded-full'
-              src={skill2}
-              alt=''
-            />
-             <img
-              className='h-10 w-10 rounded-full'
-              src={skill3}
-              alt=''
-            />
-             <img
-              className='h-10 w-10 rounded-full'
-              src={skill4}
-              alt=''
-            />
+          <img className="h-10 w-10 rounded-full" src={skill} alt="" />
+          <img className="h-10 w-10 rounded-full" src={skill2} alt="" />
+          <img className="h-10 w-10 rounded-full" src={skill3} alt="" />
+          <img className="h-10 w-10 rounded-full" src={skill4} alt="" />
         </div>
         {/* STARTED WORK...- ENDED... */}
-        <p className='uppercase py-5 text-gray-300'>
+        <p className="py-5 uppercase text-gray-300">
           {dateIn} - {dateEnded} {currentlyWork}
         </p>
-        <ul className='list-disc space-y-4 ml-5 text-lg max-h-96'>
+        <ul className="ml-5 max-h-96 list-disc space-y-4 text-lg">
           <li>{summary1}</li>
           <li>{summary2}</li>
           <li>{summary3}</li>
           <li>{summary4}</li>
-
         </ul>
       </div>
     </motion.article>

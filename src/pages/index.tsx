@@ -12,43 +12,34 @@ type Props = {};
 
 const Home = (props: Props) => {
   return (
-    <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
+    <div className="z-0 h-screen snap-y snap-mandatory overflow-scroll overflow-x-hidden bg-[rgb(36,36,36)] text-white scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
       <Head>
         <title>Putra&apos;s Portfolio</title>
       </Head>
 
       <Header />
 
-      <section id='hero' className='snap-start'>
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      <section id='about' className='snap-center'>
+      <section id="about" className="snap-center">
         <About />
       </section>
 
-      <section
-        id='experience'
-        className='snap-center'
-      >
+      <section id="experience" className="snap-center">
         <WorkExperience />
       </section>
 
-      <section id='skills' className='snap-start'>
+      <section id="skills" className="snap-start">
         <Skills />
       </section>
 
-      <section
-        id='projects'
-        className='snap-start'
-      >
+      <section id="projects" className="snap-start">
         <ProjectPage />
       </section>
 
-      <section
-        id='contact'
-        className='snap-start'
-      >
+      <section id="contact" className="snap-start">
         <ContactMe />
       </section>
 
@@ -72,6 +63,6 @@ export default Home;
 export async function getStaticProps() {
   return {
     props: {},
-    revalidate: 3600 // reload in an hour
+    revalidate: 3600, // reload in an hour
   };
 }
