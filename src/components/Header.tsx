@@ -27,11 +27,6 @@ function Header({}: Props) {
       >
         {/* social icons*/}
         <SocialIcon
-          url="https://instagram.com/rzkiypratama"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
           url="https://twitter.com/rzkiypratama"
           fgColor="gray"
           bgColor="transparent"
