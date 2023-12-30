@@ -11,10 +11,6 @@ import {
 type Props = {};
 
 const Projects = ({}: Props) => {
-  const mobileProject = [1, 2, 3, 4, 5, 6, 7, 8];
-
-  const [mobileStudyIndex, setMobileStudyIndex] = useState(0);
-
   const [currentStudyIndex, setCurrentStudyIndex] = useState(0);
 
   const handleNext = () => {
@@ -97,46 +93,42 @@ const Projects = ({}: Props) => {
         </motion.div>
 
         {/* mobile and table that swipeable */}
-        <motion.div
-          initial={{ y: -200, opacity: 0 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.3 }}
-          className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 lg:hidden"
-        >
-          <motion.img
-            transition={{ duration: 1.1 }}
-            viewport={{ once: true }}
-            src="https://i.ibb.co/nQzw3Gd/booking-system.png"
-            alt="Booking System"
-            className="relative w-[100%] object-cover md:w-[100%] xl:w-[666px]"
-          />
+        {caseStudies.map((currentStudy, index) => (
+          <motion.div
+            key={index}
+            initial={{ y: -200, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.3 }}
+            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 lg:hidden"
+          >
+            <motion.img
+              transition={{ duration: 1.1 }}
+              viewport={{ once: true }}
+              src={currentStudy.image}
+              alt=""
+              className="relative w-[100%] object-cover md:w-[100%] xl:w-[666px]"
+            />
 
-          <div className="max-w-6xl space-y-10 px-0 md:px-10">
-            <h4 className="text-center text-xl font-semibold md:text-4xl">
-              <span className="underline decoration-[#F7AB0A]/50">
-                Case Study {mobileStudyIndex + 1} of {mobileProject.length}:
-              </span>{" "}
-              <a
-                target="_blank"
-                href="booking-system-eight.vercel.app"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
-              >
-                Booking System
-              </a>
-            </h4>
+            <div className="max-w-6xl space-y-10 px-0 md:px-10">
+              <h4 className="text-center text-xl font-semibold underline decoration-[#F7AB0A]/50 md:text-4xl">
+                <a
+                  target="_blank"
+                  href={currentStudy.link}
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
+                  {currentStudy.title}
+                </a>
+              </h4>
 
-            <p className="w-[23rem] text-center text-base md:w-full md:text-left md:text-xl">
-              Embark on an unforgettable journey to Labuan Bajo with our Travel
-              Website. Seamlessly order and schedule your trip with our
-              user-friendly interface. Powered by Next.js, TypeScript, and
-              Tailwind for a sleek frontend experience, and Strapi for a robust
-              backend.
-            </p>
-          </div>
-        </motion.div>
+              <p className="w-[23rem] text-center text-base md:w-full md:text-left md:text-xl">
+                {currentStudy.description}
+              </p>
+            </div>
+          </motion.div>
+        ))}
 
-        <motion.div
+        {/* <motion.div
           initial={{ y: -200, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.3 }}
@@ -413,7 +405,7 @@ const Projects = ({}: Props) => {
               has several pages like blog, gallery, etc.
             </p>
           </div>
-        </motion.div>
+        </motion.div> */}
       </section>
 
       <div className="absolute left-0 top-[30%] h-[500px] w-full -skew-y-12 bg-[#F7AB0A]/10"></div>
