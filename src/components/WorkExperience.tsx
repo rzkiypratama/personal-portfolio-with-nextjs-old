@@ -30,10 +30,10 @@ const WorkExperience = ({}: Props) => {
           dateIn="02 June 2023"
           dateEnded=""
           currentlyWork="Present"
-          summary1="Maintenance and make UPH web faster"
-          summary2="Make CRT Website"
-          summary3="Make BFL Website"
-          summary4="Work with code & no code environtment"
+          summary1="Maintenance & made uph.edu faster - secure"
+          summary2="Build CRT Website"
+          summary3="Build BFL Website"
+          summary4="Work with code & no code environment"
         />
 
         <ExperienceCard
@@ -67,7 +67,7 @@ const WorkExperience = ({}: Props) => {
           summary1="Improve company website."
           summary2="Improve company code."
           summary3="Manage company website."
-          summary4="Working with backend team to deliver project into frontend side."
+          summary4="Payment gateway integration."
         />
       </div>
     </motion.div>
