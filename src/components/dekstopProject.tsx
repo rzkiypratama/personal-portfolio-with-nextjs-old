@@ -2,7 +2,7 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/nQzw3Gd/booking-system.png",
     title: "Booking System",
-    link: "booking-system-eight.vercel.app",
+    link: "https://www.waebajo.id",
     description:
       "Embark on an unforgettable journey to Labuan Bajo with our Travel Website. Seamlessly order and schedule your trip with our user-friendly interface. Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience, and Strapi for a robust backend.",
   },
