@@ -37,7 +37,7 @@ function About({}: Props) {
           viewport={{
             once: true,
           }}
-          src="https://i.ibb.co/WVDtpRr/znmg-Mh47-400x400.jpg"
+          src="https://i.ibb.co/gZM0gFT/IMG-3784-3.png"
           className="-mb-20 h-[7rem] w-[100%] flex-shrink-0 rounded-lg object-cover md:mb-0 md:h-96 md:w-64 md:rounded-lg xl:h-[500px] xl:w-[700px]"
         />
       </section>
@@ -51,7 +51,7 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          Welcome to my website! I&apos;m Rizky Putra Pratama, a full-stack web
+          Welcome to my website! I&apos;m Rizky Putra Pratama, a Software Engineer web
           developer based in Banjarbaru, South Kalimantan. I specialize in
           creating engaging and user-friendly interfaces, and I&apos;m skilled
           in ReactJS, NextJS, VueJS for front-end and NodeJS for back-end. With
