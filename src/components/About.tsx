@@ -74,8 +74,8 @@ function About({}: Props) {
         <a
           className="underline hover:cursor-pointer"
           target="_blank"
-          href="https://www.dropbox.com/scl/fi/eltrg56ige7qdir0j4k33/pratama-latest-cv.pdf?rlkey=wc2s5npv60twt1yf1zfwsic9u&dl=0"
-          download="https://www.dropbox.com/scl/fi/eltrg56ige7qdir0j4k33/pratama-latest-cv.pdf?rlkey=wc2s5npv60twt1yf1zfwsic9u&dl=0"
+          href="https://www.dropbox.com/scl/fi/1rzaszrmwt8ywf2gvsc6c/pratama-cv.pdf?rlkey=eh8rej0g4ui9e6tez2mdcccw1&dl=0"
+          download="https://www.dropbox.com/scl/fi/1rzaszrmwt8ywf2gvsc6c/pratama-cv.pdf?rlkey=eh8rej0g4ui9e6tez2mdcccw1&dl=0"
         >
           Click here to download my latest CV
         </a>
