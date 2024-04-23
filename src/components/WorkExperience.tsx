@@ -14,13 +14,13 @@ const WorkExperience = ({}: Props) => {
       transition={{ duration: 1.3 }}
       className="relative mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden px-10 text-left md:flex-row"
     >
-      <h3 className="absolute top-[5rem] pl-5 text-2xl uppercase tracking-[20px] text-gray-500 md:top-24 md:pl-0">
+      <h3 className="absolute top-[5rem] pl-5 text-2xl uppercase tracking-[20px] text-gray-500 md:top-16 md:pl-0">
         Experience
       </h3>
 
       <div className="flex w-[24rem] snap-x snap-mandatory space-x-5 overflow-x-scroll p-10 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md:w-full">
         <ExperienceCard
-          companyImages="https://media.licdn.com/dms/image/C4D0BAQHZfRlfSt0sSw/company-logo_200_200/0/1554952455099?e=1707350400&v=beta&t=EwrPMDqOgF5j1YAvL-Ew7WGcj29_DnXUkj4H_4S3fGA"
+          companyImages="https://i.ibb.co/4fhXmwh/orion.jpg"
           role="Software Developer"
           companyName="Orion Scope"
           skill="https://i.ibb.co/Cvx0M9D/Vue-js-Logo-2-svg.png"
