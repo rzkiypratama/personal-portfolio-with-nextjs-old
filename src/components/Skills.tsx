@@ -7,12 +7,12 @@ type Props = {};
 const Skills = ({}: Props) => {
   return (
     <section className="relative mx-auto flex min-h-screen max-w-[2000px] flex-col items-center justify-center text-center md:text-left xl:flex-row xl:space-y-0 xl:px-10">
-      <h3 className="absolute top-24 pl-5 text-2xl uppercase tracking-[20px] text-gray-500 md:pl-0">
+      <h3 className="absolute top-12 pl-5 text-2xl uppercase tracking-[20px] text-gray-500 md:pl-0">
         Skills
       </h3>
 
-      <h3 className="absolute top-36 text-sm uppercase tracking-[3px] text-gray-500">
-        Hover over a skill for current profienciency
+      <h3 className="absolute top-24 text-sm uppercase tracking-[3px] text-gray-500">
+        the tech-stack I&apos;m use for development
       </h3>
 
       <motion.div
