@@ -4,7 +4,14 @@ export const caseStudies = [
     title: "Hisuilabo",
     link: "https://www.hisuilabo.com/collab",
     description:
-      "A landingpage that build with lowcode environtment: webflow, but with custom styling css and javascript to make the web more dynamic.",
+      "A landing page built using the low-code environment Webflow with custom CSS and JavaScript to add dynamism to the web page.",
+  },
+  {
+    image: "https://i.ibb.co/FJ9nh48/unboxuphedu.webp",
+    title: "Unbox by UPH",
+    link: "https://unbox.uph.edu/",
+    description:
+      "A website that contains various questions that will display the results of user input, created with fundamental web builders (HTML, CSS and JavaScript)",
   },
   {
     image: "https://i.ibb.co/nQzw3Gd/booking-system.png",
