@@ -99,7 +99,7 @@ const Projects = ({}: Props) => {
             initial={{ y: -200, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.3 }}
-            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 lg:hidden"
+            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 lg:hidden"
           >
             <motion.img
               transition={{ duration: 1.1 }}
@@ -111,6 +111,9 @@ const Projects = ({}: Props) => {
 
             <div className="max-w-6xl space-y-10 px-0 md:px-10">
               <h4 className="text-center text-xl font-semibold underline decoration-[#F7AB0A]/50 md:text-4xl">
+              <span className="">
+                Case Study {currentStudyIndex + 1} of {caseStudies.length}:
+              </span>{" "}
                 <a
                   target="_blank"
                   href={currentStudy.link}
