@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { useState } from "react";
-import { caseStudies } from "./dekstopProject";
+import { caseStudies } from "./static/portfolio";
 import StackComponent from "./elements/Stack";
 import LinkIcon from "@heroicons/react/24/solid/LinkIcon";
 

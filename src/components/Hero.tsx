@@ -3,8 +3,6 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircle from "./BackgroundCircle";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import ArrowRightCircleIcon from "@heroicons/react/24/solid/ArrowRightCircleIcon";
-import LinkIcon from "@heroicons/react/24/solid/LinkIcon";
 
 type Props = {};
 
@@ -85,13 +83,13 @@ function Hero({}: Props) {
         </div>
       </div>
          {/* <div className="flex items-center gap-3 flex-wrap pt-5 z-20">
-                <a href="https://www.linkedin.com/in/ramadhanabagus/">
+                <a href="https://www.linkedin.com/in/">
                   <button className="flex p-2 rounded-md items-center bg-slate-600">
                     <p>Linkedin</p>
                     <ArrowRightCircleIcon className=" ml-3 w-6 h-6" />
                   </button>
                 </a>
-                <a href="https://github.com/ramadhanabs">
+                <a href="https://github.com">
                   <button className="flex p-2 rounded-md items-center bg-slate-600">
                     <p>Github</p>
                     <ArrowRightCircleIcon className=" ml-3 w-6 h-6" />

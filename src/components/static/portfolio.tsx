@@ -18,7 +18,7 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/nQzw3Gd/booking-system.png",
     title: "Waebajo",
-    stack: ["next.js", "nodejs", "supabase"],
+    stack: ["next.js", "nodejs", "supabase", "typescript"],
     link: "https://www.waebajo.id",
     description:
       "Waebajo is a travel small company that operates in the tourism sector.",
@@ -34,7 +34,7 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/Tmk6Dvq/pt-ana.png",
     title: "PT. Andalan Nusantara Adyatama",
-    stack: ["next.js"],
+    stack: ["next.js", "typescript"],
     link: "https://ana.co.id/",
     description:
       "ANA is a heavy machine & mining company in South Kalimantan.",
