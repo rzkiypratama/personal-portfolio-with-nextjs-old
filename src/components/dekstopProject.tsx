@@ -2,48 +2,55 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/R7yJbPG/hisuilabo.webp",
     title: "Hisuilabo",
+    stack: ["webflow"],
     link: "https://www.hisuilabo.com/collab",
     description:
-      "A dynamic landing page created on Webflow's low-code environment with custom CSS and JavaScript to enhance interactivity.",
+      "Hisuilabo is part of MAHA.CO,Ltd, Tokyo based digital agency.",
   },
   {
     image: "https://i.ibb.co/FJ9nh48/unboxuphedu.webp",
     title: "Unbox by UPH",
+    stack: ["html", "css", "javascript"],
     link: "https://unbox.uph.edu/",
     description:
-      "A website that contains various questions that will display the results of user input, created with fundamental web builders (HTML, CSS and JavaScript)",
+      "UPH Unbox is a website that prospective UPH students to find out their personality.",
   },
   {
     image: "https://i.ibb.co/nQzw3Gd/booking-system.png",
     title: "Waebajo",
+    stack: ["next.js", "nodejs", "supabase"],
     link: "https://www.waebajo.id",
     description:
-      "A fullstack travel website powered by Next.js, TypeScript, Tailwind, and Strapi for a seamless user experience.",
+      "Waebajo is a travel small company that operates in the tourism sector.",
   },
   {
     image: "https://i.ibb.co/KhPHXZQ/bfl.png",
     title: "Breakthrough for Life",
+    stack: ["wordpress"],
     link: "https://bfl-center.com/",
     description:
-      "BFL-center.com is a website developed using a low-code environment within the WordPress platform. The site features a blend of customized design elements through CSS, offering a unique and visually appealing user experience. It serves as the digital presence for the BFL Psychology Center, a part of the renowned Lippo Group Company, providing valuable insights and information related to their psychological services and expertise.",
+      "FL Psychology Center, part of Lippo, providing valuable insights and information related to their psychological services.",
   },
   {
     image: "https://i.ibb.co/Tmk6Dvq/pt-ana.png",
     title: "PT. Andalan Nusantara Adyatama",
+    stack: ["next.js"],
     link: "https://ana.co.id/",
     description:
-      "Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience.",
+      "ANA is a heavy machine & mining company in South Kalimantan.",
   },
   {
     image: "https://i.ibb.co/xKkxMPs/imaages.png",
     title: "Monlight Cafe",
+    stack: ["react.js", "node.js", "supabase", "cloudinary"],
     link: "https://monlight.vercel.app/",
     description:
-      "The Monlight Cafe application is referer to Monlight Cafe at Banjarbaru, offers a range of features for the public, users, and admins alike. As a user, you can easily place orders, view product details, and complete transactions. As an admin, you can manage and update the product catalogue, add new products, and perform a range of other tasks to ensure seamless operations.",
+      "Bootcamp project that use react, node, express on development.",
   },
   {
     image: "https://i.ibb.co/d7cxQJH/images.png",
     title: "E-wallet - Fazzpay",
+    stack: ["next.js", "node.js", "supabase", "cloudinary"],
     link: "https://monlight-wallet.vercel.app/",
     description:
       "This digital wallet application allows users to effortlessly send and receive transfers, access search features, and manage their profiles, among other features. It offers the convenience and functionality of leading digital wallets such as GoP** and Dan*, making it a reliable and efficient choice for all your digital payment needs..",
@@ -51,22 +58,25 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/VqzjCr1/surabayasatu-co-id.png",
     title: "Surabaya Satu Construction",
+    stack: ["wordpress"],
     link: "https://surabayasatu.co.id",
     description:
-      "This is official website for Surabaya Satu Construction, made by low code wordpress elementor and custom css for better styling. It has several pages like blog, gallery, etc",
+      "Surabaya Satu is a Surabaya based architecture and development services company",
   },
   {
     image: "https://i.ibb.co/X22QjJx/imageeesa.png",
     title: "Movie Ticketing - Tickits",
+    stack: ["next.js", "node.js", "supabase", "cloudinary"],
     link: "https://lepisa-fe.vercel.app/",
     description:
-      "Experience the convenience of booking movie tickets online with our dedicated cinema ticket booking application. As a user, you can easily search for available movies, place orders, manage your profile, and access a range of other features designed to streamline the booking process. Our admin feature allows movie theatre operators to easily add new movies and schedules, ensuring the latest information is always available to users.",
+      "A project that has function like cinep*lis app, search movie - ticket order.",
   },
   {
     image: "https://i.ibb.co/S0YgdF8/imageees.png",
     title: "RIMA Furniture E-commerce",
+    stack: ["next.js", "node.js", "supabase", "cloudinary", "redis"],
     link: "https://rima-project.vercel.app/",
     description:
-      "This website offers a comprehensive ecommerce platform for furniture sales, complete with a range of features to enhance user experience. Users can easily upload their furniture products to sell, while customers can seamlessly place orders and browse available items. In addition, users can access a search function to find the perfect pieces, and edit their profiles to ensure seamless communication and transaction management.",
+      "A project that has function like e-commerce app, search product - product order.",
   },
 ];
