@@ -63,7 +63,7 @@ function Hero({}: Props) {
           duration: 1.2,
         }}
         >
-        Hi, I'm Putra
+        Hi, I&apos;m Putra
         </motion.h1>
         <h1 className="px-0 text-2xl font-semibold md:text-5xl lg:text-6xl pt-3">
           <span className="mr-3 w-[19rem]"> {text}</span>
