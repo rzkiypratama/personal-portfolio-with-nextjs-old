@@ -24,7 +24,7 @@ const Projects = ({}: Props) => {
   return (
     <div className="relative z-0 mx-auto flex flex-col items-center justify-evenly text-left md:flex-row">
       <h3 className="absolute -top-20 pl-5 text-2xl uppercase tracking-[20px] text-gray-500 md:pl-0">
-        Projects
+        portfolios
       </h3>
 
       <section className="flex">
