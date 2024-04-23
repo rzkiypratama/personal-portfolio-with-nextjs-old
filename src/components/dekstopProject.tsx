@@ -4,7 +4,7 @@ export const caseStudies = [
     title: "Hisuilabo",
     link: "https://www.hisuilabo.com/collab",
     description:
-      "A landing page built using the low-code environment Webflow with custom CSS and JavaScript to add dynamism to the web page.",
+      "A dynamic landing page created on Webflow's low-code environment with custom CSS and JavaScript to enhance interactivity.",
   },
   {
     image: "https://i.ibb.co/FJ9nh48/unboxuphedu.webp",
