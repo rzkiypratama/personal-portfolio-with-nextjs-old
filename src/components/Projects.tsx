@@ -110,15 +110,15 @@ const Projects = ({}: Props) => {
             />
 
             <div className="max-w-6xl space-y-10 px-0 md:px-10">
-              <h4 className="text-center text-xl font-semibold underline decoration-[#F7AB0A]/50 md:text-4xl">
-              <span className="">
+              <h4 className="text-center text-xl font-semibold md:text-4xl">
+              <span className="font-normal">
                 Case Study of {caseStudies.length}:
               </span>{" "}
                 <a
                   target="_blank"
                   href={currentStudy.link}
                   rel="noopener noreferrer"
-                  className="cursor-pointer"
+                  className="cursor-pointer underline decoration-[#F7AB0A]/50"
                 >
                   {currentStudy.title}
                 </a>
