@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { caseStudies } from "./dekstopProject";
 import StackComponent from "./elements/Stack";
+import LinkIcon from "@heroicons/react/24/solid/LinkIcon";
 
 type Props = {};
 
@@ -49,9 +50,9 @@ const Projects = ({}: Props) => {
                     target="_blank"
                     href={currentStudy.link}
                     rel="noopener noreferrer"
-                    className="cursor-pointer"
+                    className="cursor-pointer flex items-center hover:text-cyan-500/50"
                   >
-                    {currentStudy.title}
+                    {currentStudy.title} <span><LinkIcon className="ml-1 w-3 h-3" /></span>
                   </a>
                 </h4>
 
