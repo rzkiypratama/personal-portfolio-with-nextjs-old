@@ -76,6 +76,10 @@ const Skills = ({}: Props) => {
           percent={55}
           src="https://www.svgrepo.com/show/303251/mysql-logo.svg"
         />
+        <Skill
+          percent={55}
+          src="https://cdn.dribbble.com/users/3958478/screenshots/16494577/webflow_zeichenfl_che_1_kopie_4x.png"
+        />
       </motion.div>
     </section>
   );
