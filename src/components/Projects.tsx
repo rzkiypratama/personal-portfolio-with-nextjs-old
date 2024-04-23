@@ -99,7 +99,7 @@ const Projects = ({}: Props) => {
             initial={{ y: -200, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.3 }}
-            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 lg:hidden"
+            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 lg:hidden"
           >
             <motion.img
               transition={{ duration: 1.1 }}
