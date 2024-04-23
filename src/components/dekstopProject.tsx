@@ -1,5 +1,12 @@
 export const caseStudies = [
   {
+    image: "https://i.ibb.co/R7yJbPG/hisuilabo.webp",
+    title: "Hisuilabo",
+    link: "https://www.hisuilabo.com/collab",
+    description:
+      "A landingpage that build with lowcode environtment: webflow, but with custom styling css and javascript to make the web more dynamic.",
+  },
+  {
     image: "https://i.ibb.co/nQzw3Gd/booking-system.png",
     title: "Waebajo",
     link: "https://www.waebajo.id",
