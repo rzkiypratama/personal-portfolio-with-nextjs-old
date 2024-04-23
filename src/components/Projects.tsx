@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { caseStudies } from "./dekstopProject";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import FontAwesome
 import {
@@ -26,6 +26,29 @@ const Projects = ({}: Props) => {
   };
 
   const currentStudy = caseStudies[currentStudyIndex];
+
+  const touchStartX = useRef(null);
+
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    if (!touchStartX.current) return;
+
+    const touchEndX = e.touches[0].clientX;
+    const deltaX = touchEndX - touchStartX.current;
+
+    if (Math.abs(deltaX) > 50) { // Threshold untuk dianggap swipe
+      if (deltaX > 0 && currentStudyIndex > 0) {
+        setCurrentStudyIndex(currentStudyIndex - 1); // Swipe ke kanan (prev)
+      } else if (deltaX < 0 && currentStudyIndex < caseStudies.length - 1) {
+        setCurrentStudyIndex(currentStudyIndex + 1); // Swipe ke kiri (next)
+      }
+    }
+
+    touchStartX.current = null;
+  };
 
   return (
     <div className="relative z-0 mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden text-left md:flex-row">
@@ -100,6 +123,8 @@ const Projects = ({}: Props) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.3 }}
             className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 lg:hidden"
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
           >
             <motion.img
               transition={{ duration: 1.1 }}
