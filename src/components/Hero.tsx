@@ -12,9 +12,8 @@ function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Web Developer",
-      "Fullstack Developer",
-      "But really focus on frontend",
-      "But i can really do fullstack stuff 🤩",
+      "Frontend Developer",
+      "But also learning about backend",
       "Currently I'm work at Orionscope",
     ],
     loop: true,
