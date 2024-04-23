@@ -32,7 +32,7 @@ export const caseStudies = [
     title: "PT. Andalan Nusantara Adyatama",
     link: "https://ana.co.id/",
     description:
-      "Welcome to PT. Andalan Nusantara Adyatam website, where you can explore high-quality products, enjoy seamless shopping, and stay updated with the latest news—all in one place. Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience. Discover diverse items, experience effortless shopping, and stay informed with engaging content.",
+      "Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience.",
   },
   {
     image: "https://i.ibb.co/xKkxMPs/imaages.png",
