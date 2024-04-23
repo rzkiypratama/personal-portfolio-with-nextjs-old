@@ -18,7 +18,7 @@ export const caseStudies = [
     title: "Waebajo",
     link: "https://www.waebajo.id",
     description:
-      "A Travel Website that I build as a fullstack. Powered by Next.js, TypeScript, and Tailwind for a sleek frontend experience, and Strapi for a robust backend.",
+      "A fullstack travel website powered by Next.js, TypeScript, Tailwind, and Strapi for a seamless user experience.",
   },
   {
     image: "https://i.ibb.co/KhPHXZQ/bfl.png",
