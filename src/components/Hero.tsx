@@ -19,8 +19,8 @@ function Hero({}: Props) {
   });
 
   return (
-    <section className="flex h-screen flex-col items-center justify-center space-y-8 overflow-hidden text-center">
-      <BackgroundCircle />
+    <section className="flex h-screen flex-col items-center justify-center space-y-0 overflow-hidden text-center">
+      {/* <BackgroundCircle /> */}
       <img
         src="https://i.ibb.co/dm8Dn7B/imgggggg.png"
         alt=""
