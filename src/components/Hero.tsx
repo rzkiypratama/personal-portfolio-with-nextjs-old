@@ -27,9 +27,10 @@ function Hero({}: Props) {
         className="relative mx-auto h-32 w-32 rounded-full object-cover"
       />
       <div className="z-20">
-        {/* <motion.h2
+        <motion.h1
+          className="px-0 text-2xl font-semibold md:text-5xl lg:text-6xl"
           initial={{
-            y: -100,
+            y: -50,
             opacity: 0,
             scale: 0.5,
           }}
@@ -41,28 +42,10 @@ function Hero({}: Props) {
           transition={{
             duration: 1.2,
           }}
-          className="pb-2 pl-5 text-sm uppercase tracking-[15px] text-gray-500 md:pl-0"
         >
-          Software Engineer
-        </motion.h2> */}
-        <motion.h1 className="px-0 text-2xl font-semibold md:text-5xl lg:text-6xl"
-        initial={{
-          y: -100,
-          opacity: 0,
-          scale: 0.5,
-        }}
-        animate={{
-          y: 0,
-          opacity: 1,
-          scale: 1,
-        }}
-        transition={{
-          duration: 1.2,
-        }}
-        >
-        Hi, I&apos;m Putra
+          Hi, I&apos;m Putra
         </motion.h1>
-        <h1 className="px-0 text-2xl font-semibold md:text-5xl lg:text-6xl pt-3">
+        <h1 className="px-0 pt-3 text-2xl font-semibold md:text-5xl lg:text-6xl">
           <span className="mr-3 w-[19rem]"> {text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
@@ -82,7 +65,7 @@ function Hero({}: Props) {
           </Link>
         </div>
       </div>
-         {/* <div className="flex items-center gap-3 flex-wrap pt-5 z-20">
+      {/* <div className="flex items-center gap-3 flex-wrap pt-5 z-20">
                 <a href="https://www.linkedin.com/in/">
                   <button className="flex p-2 rounded-md items-center bg-slate-600">
                     <p>Linkedin</p>
