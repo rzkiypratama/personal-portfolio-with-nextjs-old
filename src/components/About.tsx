@@ -38,7 +38,7 @@ function About({}: Props) {
             once: true,
           }}
           src="https://i.ibb.co/gZM0gFT/IMG-3784-3.png"
-          className="-mb-20 h-[7rem] w-[100%] flex-shrink-0 rounded-lg object-cover md:mb-0 md:h-96 md:w-64 md:rounded-lg xl:h-[500px] xl:w-[700px]"
+          className="-mb-20 h-[10rem] w-[100%] flex-shrink-0 rounded-lg object-cover md:mb-0 md:h-96 md:w-64 md:rounded-lg xl:h-[500px] xl:w-[700px]"
         />
       </section>
 
