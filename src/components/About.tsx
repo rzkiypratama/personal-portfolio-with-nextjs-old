@@ -43,33 +43,23 @@ function About({}: Props) {
       </section>
 
       <div className="space-y-2 px-0 md:space-y-10 md:px-10">
-        <h4 className="text-2xl font-semibold md:text-4xl">
+        {/* <h4 className="text-2xl font-semibold md:text-4xl">
           Here is{" "}
           <span className="animate-pulse underline decoration-[#F7AB0A]">
             my
           </span>{" "}
           background
-        </h4>
+        </h4> */}
         <p className="text-base">
-          Welcome to my website! I&apos;m Rizky Putra Pratama, a Software Engineer web
-          developer based in Banjarbaru, South Kalimantan. I specialize in
-          creating engaging and user-friendly interfaces, and I&apos;m skilled
-          in ReactJS, NextJS, VueJS for front-end and NodeJS for back-end. With
-          prior experience in design and digital marketing, I create visually
-          appealing and functional websites and mobile apps.
-          {/* I am a full-stack web developer. I can
-          turn your figma design into website! I
-          have expertise working with Reactjs,
-          NextJs, VueJs for frontend and Nodejs
-          for backend, oh yeah not forget using
-          redux for state-management, one more,
-          react native for mobile.  */}
+          <span className="text-2xl font-semibold">Hi, I&apos;m Rizky Putra Pratama,</span> a web developer based in Banjarbaru,
+          South Kalimantan. I specialize in creating user-friendly interfaces
+          and have expertise in ReactJS, NextJS, VueJS for front-end, and NodeJS
+          for back-end development. I love javascript and typescript too in development!
         </p>
 
-        <p>
-          Curently i&apos;m working in Orion Scope as Software Developer.
-          I&apos;m passionate about learning and taking on new challenges in web
-          development. Let&apos;s work together on your next project!
+        <p className="pb-2">
+        Currently, I work as a Software Developer at Orion Scope. 
+        <span> Let&apos;s work together on your next project!</span>
         </p>
         <a
           className="underline hover:cursor-pointer"
