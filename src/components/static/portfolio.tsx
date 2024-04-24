@@ -13,7 +13,7 @@ export const caseStudies = [
     stack: ["html", "css", "javascript"],
     link: "https://unbox.uph.edu/",
     description:
-      "UPH Unbox is a website that prospective UPH students to find out their personality.",
+      "UPH Unbox is a quiz website that prospective UPH students to find out their personality.",
   },
   {
     image: "https://i.ibb.co/nQzw3Gd/booking-system.png",
