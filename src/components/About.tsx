@@ -51,10 +51,10 @@ function About({}: Props) {
           background
         </h4> */}
         <p className="text-base">
-          <span className="text-2xl font-semibold">Hi, I&apos;m Rizky Putra Pratama,</span> a web developer based in Banjarbaru,
+          Hi, I&apos;m <span className="font-semibold">Rizky Putra Pratama,</span> a web developer based in Banjarbaru,
           South Kalimantan. I specialize in creating user-friendly interfaces
           and have expertise in ReactJS, NextJS, VueJS for front-end, and NodeJS
-          for back-end development. I love javascript and typescript too in development!
+          for back-end development.
         </p>
 
         <p className="pb-2">
