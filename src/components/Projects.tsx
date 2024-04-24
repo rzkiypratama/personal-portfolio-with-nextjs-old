@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
-import React from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { caseStudies } from "./static/portfolio";
 import StackComponent from "./elements/Stack";
 import LinkIcon from "@heroicons/react/24/solid/LinkIcon";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 type Props = {};
 
@@ -21,6 +22,10 @@ const Projects = ({}: Props) => {
     setShowModal(false);
   };
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="relative z-0 mx-auto flex flex-col items-center justify-evenly text-left md:flex-row">
       <h3 className="absolute -top-20 pl-5 text-2xl uppercase tracking-[20px] text-gray-500 md:pl-0">
@@ -33,14 +38,22 @@ const Projects = ({}: Props) => {
           {caseStudies.map((currentStudy, index) => (
             <motion.div
               key={index}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1.3 }}
+              initial={{
+                y: -100,
+                opacity: 1,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+                scale: 1,
+              }}
+              transition={{ duration: 0.3 }}
               className="flex flex-col gap-4 rounded-xl border border-[#4f4f4f] bg-[#282828] p-4 text-white transition-all duration-300 hover:border-cyan-500/50 hover:bg-cyan-500/10"
             >
               <img
                 src={currentStudy.image}
                 alt="image"
-                className="w-[100%] cursor-pointer object-cover md:w-[100%]"
+                className="w-[100%] cursor-pointer object-cover md:w-[100%] z-10"
                 onClick={() => openModal(currentStudy.image)}
               />
 

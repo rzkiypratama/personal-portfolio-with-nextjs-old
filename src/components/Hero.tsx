@@ -30,9 +30,8 @@ function Hero({}: Props) {
         <motion.h1
           className="px-0 text-2xl font-semibold md:text-5xl lg:text-6xl"
           initial={{
-            y: -50,
+            y: -10,
             opacity: 0,
-            scale: 0.5,
           }}
           animate={{
             y: 0,
@@ -40,7 +39,7 @@ function Hero({}: Props) {
             scale: 1,
           }}
           transition={{
-            duration: 1.2,
+            duration: 1,
           }}
         >
           Hi, I&apos;m Putra
