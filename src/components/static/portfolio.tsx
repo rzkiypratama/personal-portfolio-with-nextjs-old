@@ -32,7 +32,7 @@ export const caseStudies = [
       "FL Psychology Center, part of Lippo, providing valuable insights and information related to their psychological services.",
   },
   {
-    image: "https://i.ibb.co/Tmk6Dvq/pt-ana.png",
+    image: "https://i.ibb.co/w0hm11c/pt-ana.webp",
     title: "PT. Andalan Nusantara Adyatama",
     stack: ["next.js", "typescript"],
     link: "https://ana.co.id/",
