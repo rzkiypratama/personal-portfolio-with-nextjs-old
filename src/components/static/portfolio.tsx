@@ -10,10 +10,10 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/bQcwb6j/uphedu.webp",
     title: "Universitas Pelita Harapan",
-    stack: ["maintenance", "bug fixing", "adjustment],
+    stack: ["maintenance", "bug fixing", "adjustment"],
     link: "https://uph.edu/",
     description:
-      "Official website of Pelita Harapan University.",
+      "Official website of Pelita Harapan University."
   },
   {
     image: "https://i.ibb.co/FJ9nh48/unboxuphedu.webp",
