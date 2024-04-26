@@ -8,6 +8,14 @@ export const caseStudies = [
       "Hisuilabo is part of MAHA.CO,Ltd, Tokyo based digital agency.",
   },
   {
+    image: "https://i.ibb.co/bQcwb6j/uphedu.webp",
+    title: "Universitas Pelita Harapan",
+    stack: ["maintenance", "bug fixing", "adjustment],
+    link: "https://uph.edu/",
+    description:
+      "Official website of Pelita Harapan University.",
+  },
+  {
     image: "https://i.ibb.co/FJ9nh48/unboxuphedu.webp",
     title: "Unbox by UPH",
     stack: ["html", "css", "javascript"],
