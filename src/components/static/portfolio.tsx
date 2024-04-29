@@ -2,7 +2,7 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/R7yJbPG/hisuilabo.webp",
     title: "Hisuilabo",
-    stack: ["webflow"],
+    stack: ["webflow", "javascript"],
     link: "https://www.hisuilabo.com/collab",
     description:
       "Hisuilabo is part of MAHA.CO,Ltd, Tokyo based digital agency.",
