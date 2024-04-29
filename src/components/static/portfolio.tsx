@@ -56,7 +56,7 @@ export const caseStudies = [
       "ANA is a heavy machine & mining company in South Kalimantan.",
   },
   {
-    image: "https://i.ibb.co/FHfkvNR/crt.webp",
+    image: "https://i.ibb.co/5KzXDtb/crt.webp",
     title: "Center for Reformed Theology",
     stack: ["html", "css", "javascript", "laravel"],
     link: "https://crt.funedge.co.id/",
