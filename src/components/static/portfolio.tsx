@@ -18,7 +18,7 @@ export const caseStudies = [
   {
     image: "https://i.ibb.co/FJ9nh48/unboxuphedu.webp",
     title: "Unbox by UPH",
-    stack: ["html", "css", "javascript"],
+    stack: ["html", "css", "javascript", "SPA"],
     link: "https://unbox.uph.edu/",
     description:
       "UPH Unbox is a quiz website that prospective UPH students to find out their personality.",
@@ -32,6 +32,14 @@ export const caseStudies = [
       "Waebajo is a travel small company that operates in the tourism sector.",
   },
   {
+    image: "https://i.ibb.co/N9Pq7pk/masworkspace.webp",
+    title: "PT. Mitra Angkasa Sejahtera - Company Profile",
+    stack: ["wordpress", "revamp"],
+    link: "https://masworkspace.com/",
+    description:
+      "Official website of PT. Mitra Angkasa Sejahtera that revamped from nextjs to wordpress."
+  },
+  {
     image: "https://i.ibb.co/KhPHXZQ/bfl.png",
     title: "Breakthrough for Life",
     stack: ["wordpress"],
@@ -41,11 +49,19 @@ export const caseStudies = [
   },
   {
     image: "https://i.ibb.co/w0hm11c/pt-ana.webp",
-    title: "PT. Andalan Nusantara Adyatama",
+    title: "PT. Andalan Nusantara Adyatama - Company Profile",
     stack: ["next.js", "typescript"],
     link: "https://ana.co.id/",
     description:
       "ANA is a heavy machine & mining company in South Kalimantan.",
+  },
+  {
+    image: "https://i.ibb.co/FHfkvNR/crt.webp",
+    title: "Center for Reformed Theology",
+    stack: ["html", "css", "javascript", "laravel"],
+    link: "https://crt.funedge.co.id/",
+    description:
+      "CRT is a part of Lippo.",
   },
   {
     image: "https://i.ibb.co/xKkxMPs/imaages.png",
